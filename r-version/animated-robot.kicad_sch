@@ -5042,6 +5042,12 @@
 		(uuid "1e10e1d1-cc79-46c6-8083-0d4c1d235dd8")
 	)
 	(junction
+		(at 203.2 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23c927a8-3a7e-4a85-9dd0-145e738e6609")
+	)
+	(junction
 		(at 335.28 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5100,6 +5106,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "453e5ffa-afcc-488f-9a92-33479e2aedda")
+	)
+	(junction
+		(at 248.92 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46f18732-101e-4c50-b410-4bf3f05804f6")
 	)
 	(junction
 		(at 180.34 162.56)
@@ -5222,6 +5234,12 @@
 		(uuid "86d7ad00-996f-4e3f-9da6-06caf21ab835")
 	)
 	(junction
+		(at 238.76 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a70d5d8-1774-4d4a-8a10-f60e3ec6e2f5")
+	)
+	(junction
 		(at 325.12 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5246,6 +5264,12 @@
 		(uuid "931f2afb-bef7-4976-9fef-23c998cd0b28")
 	)
 	(junction
+		(at 213.36 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95d168eb-1a3a-4d60-862c-07bc3d945bb2")
+	)
+	(junction
 		(at 303.53 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5262,6 +5286,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e0558ed-347d-4f1e-a107-bae94dc619bc")
+	)
+	(junction
+		(at 213.36 265.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e5b4802-7c26-4c2e-838c-54f718157cdc")
 	)
 	(junction
 		(at 325.12 198.12)
@@ -5359,6 +5389,12 @@
 		(color 0 0 0 0)
 		(uuid "f85f8fe6-099d-45f5-ab5b-cf1ce4eef4d6")
 	)
+	(junction
+		(at 223.52 260.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9047ee1-1c48-45e9-a7ae-e0bf195daa0a")
+	)
 	(no_connect
 		(at 139.7 43.18)
 		(uuid "388ac15a-4d90-4234-af35-24cbdac78de2")
@@ -5408,6 +5444,16 @@
 			(type default)
 		)
 		(uuid "005ab327-c8fb-4cda-8a73-1492f8b44822")
+	)
+	(wire
+		(pts
+			(xy 223.52 260.35) (xy 232.41 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "008b1491-cd9b-436f-b402-26d99397e295")
 	)
 	(wire
 		(pts
@@ -5571,6 +5617,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 213.36) (xy 213.36 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "106cfbdf-cd7c-41eb-b6a4-1c9a90bc1cac")
+	)
+	(wire
+		(pts
 			(xy 322.58 149.86) (xy 327.66 149.86)
 		)
 		(stroke
@@ -5718,6 +5774,16 @@
 			(type default)
 		)
 		(uuid "188d8ac0-aefe-48c7-af6a-2867f5620fc3")
+	)
+	(wire
+		(pts
+			(xy 248.92 233.68) (xy 257.81 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192a35da-ecb8-459d-9238-a8a35d1c57b5")
 	)
 	(wire
 		(pts
@@ -6161,6 +6227,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 265.43) (xy 223.52 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e93ab40-6892-4d5e-bc58-8ac1c46c9bd5")
+	)
+	(wire
+		(pts
 			(xy 127 261.62) (xy 152.4 261.62)
 		)
 		(stroke
@@ -6328,6 +6404,16 @@
 			(type default)
 		)
 		(uuid "4f9beb1e-3f1a-4995-aa83-ce81dd55d77f")
+	)
+	(wire
+		(pts
+			(xy 213.36 208.28) (xy 222.25 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511ba940-6c91-4288-b2b8-ed63099988ed")
 	)
 	(wire
 		(pts
@@ -7061,6 +7147,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 238.76) (xy 248.92 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5eda2a-f26a-4414-99f6-3baf1e2ed822")
+	)
+	(wire
+		(pts
 			(xy 193.04 203.2) (xy 203.2 203.2)
 		)
 		(stroke
@@ -7241,7 +7337,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 260.35) (xy 232.41 260.35)
+			(xy 213.36 260.35) (xy 223.52 260.35)
 		)
 		(stroke
 			(width 0)
@@ -7281,7 +7377,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 233.68) (xy 257.81 233.68)
+			(xy 238.76 233.68) (xy 248.92 233.68)
 		)
 		(stroke
 			(width 0)
@@ -7571,7 +7667,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 208.28) (xy 222.25 208.28)
+			(xy 203.2 208.28) (xy 213.36 208.28)
 		)
 		(stroke
 			(width 0)
@@ -8139,6 +8235,16 @@
 		)
 		(uuid "36296bf3-d824-4ef5-96ca-e2ff609e5782")
 	)
+	(text "xxx ti says schottky is better?"
+		(exclude_from_sim no)
+		(at 167.386 124.714 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "42cb1f35-c115-4e4c-bfb2-27111ef8d3eb")
+	)
 	(text "xxx can we reliably do e-stop with this?"
 		(exclude_from_sim no)
 		(at 149.352 222.758 0)
@@ -8219,6 +8325,16 @@
 		)
 		(uuid "9c0c4f86-4128-4266-a01e-2970091c75da")
 	)
+	(text "xxx not sure how to calculate optimal vals here"
+		(exclude_from_sim no)
+		(at 320.548 114.808 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c63034df-efb1-4ed0-9286-38239c1f3e38")
+	)
 	(text "cost optimize for jlc\noutput = 3.26 V"
 		(exclude_from_sim no)
 		(at 186.69 265.684 0)
@@ -8228,6 +8344,16 @@
 			)
 		)
 		(uuid "cc0b208c-926d-4596-a97f-de16c6d313a0")
+	)
+	(text "xxx why is the devboard caps so big?\nhttps://www.ti.com/lit/an/slua887a/slua887a.pdf\n0.1 uF > 10*Cg\nCL21B474KBFNNN derate -40% @ 20 V\n --> still > 0.2 uF"
+		(exclude_from_sim no)
+		(at 167.132 173.736 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d3536fb8-bff8-4a05-908f-99f42d266cb0")
 	)
 	(text "xxx the pin sharing sucks"
 		(exclude_from_sim no)
@@ -9587,7 +9713,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10"
 			(at 316.738 134.874 90)
 			(effects
 				(font
@@ -9654,7 +9780,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10"
 			(at 324.612 148.59 90)
 			(effects
 				(font
@@ -9765,6 +9891,76 @@
 			(project "animated-robot"
 				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 223.52 262.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12fc66e0-3f8d-4de9-8c14-7e3f6dae1ea0")
+		(property "Reference" "C21"
+			(at 226.06 261.6262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 226.06 264.1662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 223.52 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc8b2ff0-847a-4d93-bc36-fc5721a5a260")
+		)
+		(pin "1"
+			(uuid "ebd46a76-85e2-4f44-a765-7265ed47fce9")
+		)
+		(instances
+			(project "animated-robot"
+				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -10058,7 +10254,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "ES2JF"
 			(at 309.88 196.088 0)
 			(effects
 				(font
@@ -10111,6 +10307,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C7420342"
+			(at 313.69 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "33eb1a91-e422-4f5a-802a-2552f11cc772")
 		)
@@ -10145,7 +10350,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10 uF"
 			(at 274.32 125.7362 0)
 			(effects
 				(font
@@ -10173,6 +10378,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 276.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 276.86 124.46 0)
 			(effects
 				(font
@@ -10550,7 +10764,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "ES2JF"
 			(at 200.406 165.862 0)
 			(effects
 				(font
@@ -10595,6 +10809,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 200.66 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420342"
 			(at 200.66 167.64 0)
 			(effects
 				(font
@@ -10703,7 +10926,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10 uF"
 			(at 167.64 143.5162 0)
 			(effects
 				(font
@@ -10731,6 +10954,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 170.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 170.18 142.24 0)
 			(effects
 				(font
@@ -10773,7 +11005,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "56k"
 			(at 205.74 207.0099 0)
 			(effects
 				(font
@@ -10976,7 +11208,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "WSD4070DN"
 			(at 339.09 138.4299 0)
 			(effects
 				(font
@@ -11012,6 +11244,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C719095"
+			(at 332.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "4337c0d3-9fc6-4cd3-8c01-f15a906ed970")
 		)
@@ -11025,6 +11266,84 @@
 			(project "animated-robot"
 				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 288.29 180.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39f218f6-9c96-414a-bac9-00ea13858aa3")
+		(property "Reference" "D8"
+			(at 289.8141 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34"
+			(at 286.766 183.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 288.29 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 288.29 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8678"
+			(at 288.29 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e923e183-4fe2-469b-b29c-7e76c20ec730")
+		)
+		(pin "2"
+			(uuid "b2e49c6b-4456-4084-8155-c45431eb90a4")
+		)
+		(instances
+			(project "animated-robot"
+				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -11195,7 +11514,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "WSD4070DN"
 			(at 345.44 212.0899 0)
 			(effects
 				(font
@@ -11223,6 +11542,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 339.09 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C719095"
 			(at 339.09 210.82 0)
 			(effects
 				(font
@@ -11268,7 +11596,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 215.9 264.1599 0)
 			(effects
 				(font
@@ -11402,7 +11730,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "ES2JF"
 			(at 303.53 135.128 0)
 			(effects
 				(font
@@ -11447,6 +11775,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 307.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420342"
 			(at 307.34 137.16 0)
 			(effects
 				(font
@@ -11558,7 +11895,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "WSD4070DN"
 			(at 232.41 156.2099 0)
 			(effects
 				(font
@@ -11586,6 +11923,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 226.06 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C719095"
 			(at 226.06 154.94 0)
 			(effects
 				(font
@@ -11764,6 +12110,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 213.36 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cfdef8c-7e63-4391-909f-724d5dffd052")
+		(property "Reference" "C19"
+			(at 215.9 209.5562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 215.9 212.0962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 213.36 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d64d1f70-2490-4fd2-9753-a16523e2e088")
+		)
+		(pin "1"
+			(uuid "a4a390df-057d-4dbc-9ddd-ee49e1d29758")
+		)
+		(instances
+			(project "animated-robot"
+				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Q_NMOS_GDS")
 		(at 226.06 167.64 0)
 		(unit 1)
@@ -11782,7 +12198,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "WSD4070DN"
 			(at 232.41 168.9099 0)
 			(effects
 				(font
@@ -11810,6 +12226,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 226.06 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C719095"
 			(at 226.06 167.64 0)
 			(effects
 				(font
@@ -11994,7 +12419,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "56k"
 			(at 215.9 259.0799 0)
 			(effects
 				(font
@@ -12247,6 +12672,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 175.26 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ea9298c-b5ff-4d7d-81ba-0cc7de556cb7")
+		(property "Reference" "D2"
+			(at 176.7841 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34"
+			(at 173.736 140.462 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8678"
+			(at 175.26 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8992bca4-f220-48a0-8c0c-397112c75eac")
+		)
+		(pin "2"
+			(uuid "2b121dd3-8104-41b1-a5dd-4ba7d12e9155")
+		)
+		(instances
+			(project "animated-robot"
+				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 147.32 213.36 90)
 		(unit 1)
@@ -12342,7 +12845,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "56k"
 			(at 187.96 107.9499 0)
 			(effects
 				(font
@@ -12478,7 +12981,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "ES2JF"
 			(at 313.436 209.042 0)
 			(effects
 				(font
@@ -12523,6 +13026,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 313.69 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420342"
 			(at 313.69 210.82 0)
 			(effects
 				(font
@@ -12632,7 +13144,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "51"
 			(at 320.04 202.692 90)
 			(effects
 				(font
@@ -12966,7 +13478,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "51"
 			(at 313.69 141.732 90)
 			(effects
 				(font
@@ -13079,92 +13591,6 @@
 			(project "animated-robot"
 				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 175.26 137.16 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7668fb21-0fea-474a-b676-050b3931b0d4")
-		(property "Reference" "D2"
-			(at 175.26 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 175.26 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 175.26 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 175.26 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 175.26 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1dc5359e-80b8-4534-bc7e-7d76a9c89f0e")
-		)
-		(pin "2"
-			(uuid "0a6cd4f5-4ee1-4abd-926c-7e8f9bb748e0")
-		)
-		(instances
-			(project "animated-robot"
-				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -13674,7 +14100,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 205.74 212.0899 0)
 			(effects
 				(font
@@ -13875,7 +14301,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.47 uF"
 			(at 290.83 203.2062 0)
 			(effects
 				(font
@@ -13903,6 +14329,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 293.37 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13967"
 			(at 293.37 201.93 0)
 			(effects
 				(font
@@ -14011,7 +14446,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "10 uF"
 			(at 280.67 186.6962 0)
 			(effects
 				(font
@@ -14039,6 +14474,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 283.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13585"
 			(at 283.21 185.42 0)
 			(effects
 				(font
@@ -14079,7 +14523,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10"
 			(at 217.932 166.37 90)
 			(effects
 				(font
@@ -14895,7 +15339,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "ES2JF"
 			(at 307.086 148.082 0)
 			(effects
 				(font
@@ -14940,6 +15384,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 307.34 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420342"
 			(at 307.34 149.86 0)
 			(effects
 				(font
@@ -15048,7 +15501,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "WSD4070DN"
 			(at 345.44 199.3899 0)
 			(effects
 				(font
@@ -15084,6 +15537,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C719095"
+			(at 339.09 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "febfbdde-1c03-4bc2-9d27-b6b2cd398f4a")
 		)
@@ -15097,6 +15559,84 @@
 			(project "animated-robot"
 				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 281.94 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9da5a53-1b6f-4885-8242-ad290c3307a8")
+		(property "Reference" "D5"
+			(at 283.4641 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34"
+			(at 280.416 122.682 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 281.94 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 281.94 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8678"
+			(at 281.94 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9de4997-cc3b-496e-ba71-98babfb7888a")
+		)
+		(pin "2"
+			(uuid "2791bc5c-3597-4009-9be8-6e54f9da321b")
+		)
+		(instances
+			(project "animated-robot"
+				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -15189,7 +15729,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Small"
+		(property "Value" "ES2JF"
 			(at 196.85 152.908 0)
 			(effects
 				(font
@@ -15234,6 +15774,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 200.66 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7420342"
 			(at 200.66 154.94 0)
 			(effects
 				(font
@@ -15408,7 +15957,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "56k"
 			(at 241.3 232.4099 0)
 			(effects
 				(font
@@ -15526,92 +16075,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 281.94 119.38 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b530bff2-731e-45db-baf2-db7077a58b27")
-		(property "Reference" "D5"
-			(at 281.94 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 281.94 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 281.94 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 281.94 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 281.94 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 281.94 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dac1929e-f090-4c4a-b134-5ef8c5246095")
-		)
-		(pin "2"
-			(uuid "e1a4706e-35e6-41a6-b2c1-bb1f1e984df6")
-		)
-		(instances
-			(project "animated-robot"
-				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 238.76 236.22 0)
 		(unit 1)
@@ -15630,7 +16093,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 241.3 237.4899 0)
 			(effects
 				(font
@@ -15842,7 +16305,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "51"
 			(at 207.01 159.512 90)
 			(effects
 				(font
@@ -16042,7 +16505,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "51"
 			(at 311.15 154.94 90)
 			(effects
 				(font
@@ -16174,7 +16637,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "51"
 			(at 204.47 172.72 90)
 			(effects
 				(font
@@ -16311,7 +16774,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "51"
 			(at 317.5 215.9 90)
 			(effects
 				(font
@@ -16839,92 +17302,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 288.29 180.34 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c798b296-ed19-472d-984b-e25efb7187d5")
-		(property "Reference" "D8"
-			(at 288.29 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 288.29 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 288.29 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 288.29 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 288.29 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 288.29 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 288.29 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01e967db-39a2-4a3e-90a4-52b155a2fcc0")
-		)
-		(pin "2"
-			(uuid "e9328346-9829-4197-a99c-7b63c21dc680")
-		)
-		(instances
-			(project "animated-robot"
-				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 341.63 220.98 0)
 		(unit 1)
@@ -17007,7 +17384,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10"
 			(at 210.058 152.654 90)
 			(effects
 				(font
@@ -17358,7 +17735,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10"
 			(at 330.962 209.55 90)
 			(effects
 				(font
@@ -17838,7 +18215,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.47 uF"
 			(at 177.8 160.0262 0)
 			(effects
 				(font
@@ -17866,6 +18243,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 180.34 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13967"
 			(at 180.34 158.75 0)
 			(effects
 				(font
@@ -18044,7 +18430,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "WSD4070DN"
 			(at 339.09 151.1299 0)
 			(effects
 				(font
@@ -18072,6 +18458,15 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 332.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C719095"
 			(at 332.74 149.86 0)
 			(effects
 				(font
@@ -18117,7 +18512,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10k"
 			(at 187.96 113.0299 0)
 			(effects
 				(font
@@ -18185,7 +18580,7 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "10"
 			(at 323.088 195.834 90)
 			(effects
 				(font
@@ -18254,7 +18649,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "0.47 uF"
 			(at 284.48 142.2462 0)
 			(effects
 				(font
@@ -18282,6 +18677,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 287.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13967"
 			(at 287.02 140.97 0)
 			(effects
 				(font
@@ -18642,6 +19046,76 @@
 			(project "animated-robot"
 				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 248.92 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc6bbf96-3119-4e28-b1f6-c0bab718c34f")
+		(property "Reference" "C20"
+			(at 251.46 234.9562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_Small"
+			(at 251.46 237.4962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 248.92 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a87436d0-db36-4b39-894c-3cb57a91993b")
+		)
+		(pin "1"
+			(uuid "bbd54ffa-a725-40e6-b931-276b4291bdfc")
+		)
+		(instances
+			(project "animated-robot"
+				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
+					(reference "C20")
 					(unit 1)
 				)
 			)
