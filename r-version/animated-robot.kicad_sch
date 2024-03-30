@@ -8189,7 +8189,17 @@
 		)
 		(uuid "80d6b9ac-1fec-456f-9956-0afa07b7568b")
 	)
-	(text "hard limit 20v --> 4s?"
+	(text "47 uH with expected load of no more than 50 mA\n--> well into DCM\n\nxxx how do we calculate proper delta I_L for DCM? forgor\nwith the usual CCM calculations get < ~600 mA\nand a minimum output cap of 1.6 uF\n\nother shrinking is an *optimization*?"
+		(exclude_from_sim no)
+		(at 160.782 234.188 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "87796456-95f0-4e2d-aa9b-4040a17d659b")
+	)
+	(text "recommended lower limit 8v --> min 3s\nhard limit 20v --> 4s?"
 		(exclude_from_sim no)
 		(at 52.578 237.744 0)
 		(effects
@@ -8198,6 +8208,26 @@
 			)
 		)
 		(uuid "895c6176-aebc-443c-9d2f-bb0aa2958cd9")
+	)
+	(text "xxx this doesn't have a ripple current rating?"
+		(exclude_from_sim no)
+		(at 100.33 265.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c0c4f86-4128-4266-a01e-2970091c75da")
+	)
+	(text "cost optimize for jlc\noutput = 3.26 V"
+		(exclude_from_sim no)
+		(at 186.69 265.684 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cc0b208c-926d-4596-a97f-de16c6d313a0")
 	)
 	(text "xxx the pin sharing sucks"
 		(exclude_from_sim no)
@@ -11086,7 +11116,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "4.7 uF"
 			(at 167.64 257.8162 0)
 			(effects
 				(font
@@ -11114,6 +11144,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 165.1 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1779"
 			(at 165.1 256.54 0)
 			(effects
 				(font
@@ -13220,7 +13259,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "4.7 uF"
 			(at 104.14 257.8162 0)
 			(effects
 				(font
@@ -13248,6 +13287,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 101.6 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C29823"
 			(at 101.6 256.54 0)
 			(effects
 				(font
@@ -14368,7 +14416,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "20k"
 			(at 180.34 260.3499 0)
 			(effects
 				(font
@@ -15717,8 +15765,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky_Small"
-			(at 141.224 270.764 90)
+		(property "Value" "SS34"
+			(at 155.702 258.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15746,6 +15794,15 @@
 		)
 		(property "Description" "Schottky diode, small symbol"
 			(at 152.4 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8678"
+			(at 152.4 256.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17917,7 +17974,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "33k"
 			(at 180.34 255.2699 0)
 			(effects
 				(font
@@ -18608,7 +18665,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "47 uH"
 			(at 158.75 248.92 90)
 			(effects
 				(font
@@ -18636,6 +18693,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 158.75 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C497831"
+			(at 158.75 251.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
