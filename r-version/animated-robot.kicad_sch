@@ -797,6 +797,116 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -5058,6 +5168,12 @@
 		(uuid "70d5b888-ae07-4719-adc3-21fdc30ab660")
 	)
 	(junction
+		(at 154.94 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "717b6e9e-e74e-454c-a23c-8a46089a6b69")
+	)
+	(junction
 		(at 180.34 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5771,6 +5887,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 200.66) (xy 43.18 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25e821c5-a876-46e0-b159-6644157c2192")
+	)
+	(wire
+		(pts
 			(xy 341.63 205.74) (xy 341.63 203.2)
 		)
 		(stroke
@@ -5988,6 +6114,16 @@
 			(type default)
 		)
 		(uuid "35beafea-8c27-42ea-ae2b-4d7f7d4456a9")
+	)
+	(wire
+		(pts
+			(xy 25.4 198.12) (xy 43.18 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3722d89b-6011-4822-a3cd-21e1c2852cac")
 	)
 	(wire
 		(pts
@@ -6788,6 +6924,16 @@
 			(type default)
 		)
 		(uuid "8c1f9b0e-db6a-466e-8f87-e1d30e84dd5c")
+	)
+	(wire
+		(pts
+			(xy 25.4 195.58) (xy 43.18 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c3f913a-29e1-4c79-a847-7ad71021d42a")
 	)
 	(wire
 		(pts
@@ -7771,6 +7917,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 213.36) (xy 177.8 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c26808-7094-43f8-85ee-2bc8b49a4413")
+	)
+	(wire
+		(pts
 			(xy 370.84 31.75) (xy 370.84 29.21)
 		)
 		(stroke
@@ -7999,7 +8155,7 @@
 		)
 		(uuid "4c3995f9-f24b-4e25-92b8-555a909d3605")
 	)
-	(text "not sure if opa_b can be switched\n(not intended?) but it should work?"
+	(text "not sure if opa0_b can be switched\n(not intended?) but it should work?"
 		(exclude_from_sim no)
 		(at 38.354 138.176 0)
 		(effects
@@ -8039,16 +8195,6 @@
 		)
 		(uuid "6f189409-c19c-459a-ae4c-2fc3a50931e7")
 	)
-	(text "xxx we've blocked comparator 1"
-		(exclude_from_sim no)
-		(at 58.928 210.058 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "749c5e10-1538-45f8-bb1d-369da2988d17")
-	)
 	(text "hard limit 20v --> 4s?"
 		(exclude_from_sim no)
 		(at 52.578 237.744 0)
@@ -8069,7 +8215,7 @@
 		)
 		(uuid "a058b3e2-792a-425c-8aab-68341d5e432a")
 	)
-	(text "xxx and the pinning sucks"
+	(text "xxx the pin sharing sucks"
 		(exclude_from_sim no)
 		(at 56.388 214.376 0)
 		(effects
@@ -8078,6 +8224,16 @@
 			)
 		)
 		(uuid "ddb45431-3f09-4ffe-a09e-f1ce1e7eabca")
+	)
+	(text "xxx resistors for symmetry (and protection?)"
+		(exclude_from_sim no)
+		(at 49.276 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ee1ea299-6857-4cb2-89e0-ec666539b294")
 	)
 	(text "xxx todo"
 		(exclude_from_sim no)
@@ -8167,7 +8323,7 @@
 		(uuid "14c4a1b2-7638-4c17-ad9a-f7a5a86baa85")
 	)
 	(label "HALL_SENSE_0"
-		(at 48.26 195.58 0)
+		(at 25.4 195.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8209,6 +8365,17 @@
 			(justify right bottom)
 		)
 		(uuid "1ff56714-5083-45d0-b4d4-6330e3d7e7cc")
+	)
+	(label "ISENSE_TOT"
+		(at 48.26 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29c0c9da-a655-4e71-b1a2-1a9381b340ee")
 	)
 	(label "VB2"
 		(at 259.08 134.62 0)
@@ -8574,7 +8741,7 @@
 		(uuid "97a139a4-2e43-4826-98ae-578593743d09")
 	)
 	(label "HALL_SENSE_2"
-		(at 48.26 170.18 0)
+		(at 25.4 200.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8660,6 +8827,17 @@
 			(justify right bottom)
 		)
 		(uuid "b538d256-ccd6-4778-8a61-152dfb2d8998")
+	)
+	(label "ISENSE_TOT"
+		(at 177.8 213.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b55fe67f-33e1-4a60-9ffc-6d9e572e48d2")
 	)
 	(label "WCH_~{RST}"
 		(at 114.3 38.1 0)
@@ -8893,7 +9071,7 @@
 		(uuid "efb68715-53e2-47f5-aec9-0795a0811276")
 	)
 	(label "HALL_SENSE_1"
-		(at 48.26 198.12 0)
+		(at 25.4 198.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10205,6 +10383,73 @@
 			(project "animated-robot"
 				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 361.95 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2910a58a-7498-4da2-8f9c-f939db8ada52")
+		(property "Reference" "J6"
+			(at 364.49 204.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 364.49 207.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 361.95 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 361.95 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "826124b7-3129-4967-99f6-6ebb8c48e2b6")
+		)
+		(instances
+			(project "animated-robot"
+				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -12267,6 +12512,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 45.72 198.12 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60e2d5e2-2232-4d88-9205-55acf86df88f")
+		(property "Reference" "R39"
+			(at 49.53 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 52.832 196.596 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 45.72 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7ec54a3-efbe-45f6-9561-3023137551b9")
+		)
+		(pin "1"
+			(uuid "f979c845-7107-4647-9c78-41b091e76ce1")
+		)
+		(instances
+			(project "animated-robot"
+				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 313.69 210.82 0)
 		(unit 1)
@@ -12623,6 +12936,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 248.92 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70df7701-24dd-4942-a97d-88b8a9021018")
+		(property "Reference" "J5"
+			(at 251.46 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 251.46 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 248.92 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f8d67b6-ef4a-4a8c-bb7f-9b3b4f9f13e8")
+		)
+		(instances
+			(project "animated-robot"
+				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 104.14 149.86 0)
 		(unit 1)
@@ -12749,6 +13129,74 @@
 			(project "animated-robot"
 				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 45.72 200.66 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "763cf969-3a5d-481d-9024-4c13bdce1dd1")
+		(property "Reference" "R38"
+			(at 45.72 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 45.72 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 45.72 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9415fbb0-a0ab-4e51-9d3a-6fd3af3c2607")
+		)
+		(pin "1"
+			(uuid "73648017-3e3e-45bc-bed4-2dba9358fbc3")
+		)
+		(instances
+			(project "animated-robot"
+				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -14472,6 +14920,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 45.72 195.58 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2ccf8d0-0e91-4586-aa9c-23ceb3b26b2b")
+		(property "Reference" "R37"
+			(at 49.53 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 52.832 194.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 45.72 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aade313b-b1e1-4c02-a313-48179df15a51")
+		)
+		(pin "1"
+			(uuid "634cba98-0f7b-43b9-9819-2fe07c66897e")
+		)
+		(instances
+			(project "animated-robot"
+				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 307.34 149.86 0)
 		(unit 1)
@@ -15467,6 +15983,73 @@
 			(project "animated-robot"
 				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 355.6 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9569ca1-0a37-40a3-a3b4-66e0a3a7fc9d")
+		(property "Reference" "J7"
+			(at 358.14 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 358.14 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 355.6 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c652299a-21d1-4531-b827-38fa9fac3ec8")
+		)
+		(instances
+			(project "animated-robot"
+				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
+					(reference "J7")
 					(unit 1)
 				)
 			)
