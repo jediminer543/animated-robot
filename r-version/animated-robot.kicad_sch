@@ -5691,16 +5691,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 50.8) (xy 139.7 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16f8b095-3546-4c43-95f7-bb7e6d544d0c")
-	)
-	(wire
-		(pts
 			(xy 180.34 162.56) (xy 215.9 162.56)
 		)
 		(stroke
@@ -6431,6 +6421,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 30.48) (xy 132.08 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c5c648-d18f-4f7d-ae28-d83269d307dc")
+	)
+	(wire
+		(pts
 			(xy 25.4 160.02) (xy 81.28 160.02)
 		)
 		(stroke
@@ -6588,16 +6588,6 @@
 			(type default)
 		)
 		(uuid "6683d8b9-0746-4d38-84d3-3072f97d3c5e")
-	)
-	(wire
-		(pts
-			(xy 114.3 38.1) (xy 139.7 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "675f2f1a-8624-411e-838f-0d9f7d206c59")
 	)
 	(wire
 		(pts
@@ -6928,16 +6918,6 @@
 			(type default)
 		)
 		(uuid "8f85dc57-963d-44e5-b37d-b5e34b59b5c7")
-	)
-	(wire
-		(pts
-			(xy 99.06 48.26) (xy 139.7 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90aa9d12-c05b-4c8d-adc2-08dab3a30422")
 	)
 	(wire
 		(pts
@@ -7461,6 +7441,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 48.26) (xy 139.7 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe0e2df-b242-419a-9618-8b6c915659cc")
+	)
+	(wire
+		(pts
 			(xy 322.58 144.78) (xy 335.28 144.78)
 		)
 		(stroke
@@ -7741,6 +7731,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 30.48) (xy 134.62 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d863d7ff-dbb4-44a7-a0fb-0761eba51913")
+	)
+	(wire
+		(pts
 			(xy 215.9 154.94) (xy 220.98 154.94)
 		)
 		(stroke
@@ -7838,6 +7838,16 @@
 			(type default)
 		)
 		(uuid "e2a2383c-5252-453a-ae53-273210e2aacf")
+	)
+	(wire
+		(pts
+			(xy 132.08 50.8) (xy 139.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2cfe002-7660-44f2-a16f-c6e310681266")
 	)
 	(wire
 		(pts
@@ -8061,6 +8071,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 38.1) (xy 139.7 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa61dca4-4c8d-4d95-b867-136359a1f458")
+	)
+	(wire
+		(pts
 			(xy 207.01 170.18) (xy 212.09 170.18)
 		)
 		(stroke
@@ -8141,7 +8161,7 @@
 	)
 	(text "left a UART free for debug maybe?"
 		(exclude_from_sim no)
-		(at 120.396 49.53 0)
+		(at 132.334 22.606 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8158,6 +8178,16 @@
 			)
 		)
 		(uuid "6f189409-c19c-459a-ae4c-2fc3a50931e7")
+	)
+	(text "do we need this?"
+		(exclude_from_sim no)
+		(at 89.408 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "80d6b9ac-1fec-456f-9956-0afa07b7568b")
 	)
 	(text "hard limit 20v --> 4s?"
 		(exclude_from_sim no)
@@ -10972,7 +11002,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 99.06 48.26 0)
+		(at 134.62 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10981,7 +11011,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d86adfe-d813-456e-b66c-0f6a7f475fa3")
 		(property "Reference" "TP3"
-			(at 101.6 43.6879 0)
+			(at 137.16 25.9079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10990,7 +11020,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 101.6 46.2279 0)
+			(at 137.16 28.4479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10999,7 +11029,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 48.26 0)
+			(at 139.7 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11008,7 +11038,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 48.26 0)
+			(at 139.7 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11017,7 +11047,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 99.06 48.26 0)
+			(at 134.62 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14053,7 +14083,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 96.52 50.8 0)
+		(at 132.08 30.48 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14062,7 +14092,7 @@
 		(dnp no)
 		(uuid "9981cfbf-86d7-489d-b7c4-f8eeb8b89a96")
 		(property "Reference" "TP4"
-			(at 93.98 46.2279 0)
+			(at 129.54 25.9079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14071,7 +14101,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 93.98 48.7679 0)
+			(at 129.54 28.4479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14080,7 +14110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 50.8 0)
+			(at 127 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14089,7 +14119,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 50.8 0)
+			(at 127 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14098,7 +14128,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 96.52 50.8 0)
+			(at 132.08 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14384,6 +14414,72 @@
 			(project "animated-robot"
 				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e56e57b-6598-4a77-99db-6bc2e65476d2")
+		(property "Reference" "#PWR05"
+			(at 101.6 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "319dc411-da1e-4740-ad8d-93fb9908913e")
+		)
+		(instances
+			(project "animated-robot"
+				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -14953,6 +15049,76 @@
 			(project "animated-robot"
 				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
 					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 101.6 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac0102a7-b76a-4d60-8854-4731446c0697")
+		(property "Reference" "C18"
+			(at 104.14 39.3762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1 uF"
+			(at 104.14 41.9162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 101.6 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60bc4257-3996-4bb0-bc66-f6e2b9030f7b")
+		)
+		(pin "2"
+			(uuid "fe20c936-9d29-4a94-8808-9adbe99cb6ac")
+		)
+		(instances
+			(project "animated-robot"
+				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
+					(reference "C18")
 					(unit 1)
 				)
 			)
