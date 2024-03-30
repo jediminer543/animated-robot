@@ -5186,12 +5186,6 @@
 		(uuid "7deaec31-b766-4b4a-8f55-87b76896c984")
 	)
 	(junction
-		(at 83.82 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e2e1bfb-649f-4faa-a89f-93948fda5fc8")
-	)
-	(junction
 		(at 293.37 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5366,7 +5360,7 @@
 		(uuid "f85f8fe6-099d-45f5-ab5b-cf1ce4eef4d6")
 	)
 	(no_connect
-		(at 139.7 63.5)
+		(at 139.7 43.18)
 		(uuid "388ac15a-4d90-4234-af35-24cbdac78de2")
 	)
 	(no_connect
@@ -5837,16 +5831,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 22.86) (xy 63.5 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21d48e51-3645-499d-94a0-164fb7976341")
-	)
-	(wire
-		(pts
 			(xy 228.6 172.72) (xy 243.84 172.72)
 		)
 		(stroke
@@ -6034,16 +6018,6 @@
 			(type default)
 		)
 		(uuid "31be7c09-ef1c-4f91-b9e7-6feb6bef200f")
-	)
-	(wire
-		(pts
-			(xy 63.5 17.78) (xy 83.82 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31d612c2-ac04-4f1a-a66f-d6725f473cb4")
 	)
 	(wire
 		(pts
@@ -7547,7 +7521,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 43.18) (xy 139.7 43.18)
+			(xy 114.3 63.5) (xy 139.7 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7837,7 +7811,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 22.86) (xy 63.5 22.86)
+			(xy 43.18 22.86) (xy 71.12 22.86)
 		)
 		(stroke
 			(width 0)
@@ -7997,16 +7971,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 22.86) (xy 114.3 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2bb2c5a-bc9c-438a-849f-316c59b5e26e")
-	)
-	(wire
-		(pts
 			(xy 198.12 72.39) (xy 194.31 72.39)
 		)
 		(stroke
@@ -8145,6 +8109,16 @@
 		)
 		(uuid "1290fc17-c00a-462a-b21f-5e243ba842f6")
 	)
+	(text "can we just make this 10k to save bom lines?"
+		(exclude_from_sim no)
+		(at 261.112 62.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "36296bf3-d824-4ef5-96ca-e2ff609e5782")
+	)
 	(text "xxx can we reliably do e-stop with this?"
 		(exclude_from_sim no)
 		(at 149.352 222.758 0)
@@ -8164,16 +8138,6 @@
 			)
 		)
 		(uuid "61358b82-0768-4f18-9b91-e22178de10c2")
-	)
-	(text "do we need this?"
-		(exclude_from_sim no)
-		(at 106.68 25.146 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6500740b-ef03-4dc3-be7f-e265763765e2")
 	)
 	(text "left a UART free for debug maybe?"
 		(exclude_from_sim no)
@@ -8205,16 +8169,6 @@
 		)
 		(uuid "895c6176-aebc-443c-9d2f-bb0aa2958cd9")
 	)
-	(text "capable of ADC or WKUP"
-		(exclude_from_sim no)
-		(at 100.33 42.418 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a058b3e2-792a-425c-8aab-68341d5e432a")
-	)
 	(text "xxx the pin sharing sucks"
 		(exclude_from_sim no)
 		(at 56.388 214.376 0)
@@ -8234,6 +8188,16 @@
 			)
 		)
 		(uuid "ee1ea299-6857-4cb2-89e0-ec666539b294")
+	)
+	(text "NOTE PA9 is 5V tolerant"
+		(exclude_from_sim no)
+		(at 101.346 62.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f1488d36-dbbc-41d5-b214-fa38cee0f261")
 	)
 	(text "xxx todo"
 		(exclude_from_sim no)
@@ -8640,17 +8604,6 @@
 			(justify left bottom)
 		)
 		(uuid "7650edaf-ad5a-460a-9dc4-158a2a5a6aea")
-	)
-	(label "USB_VBUS_DET"
-		(at 114.3 22.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "76829546-dba5-48f9-ab01-f42449f1756e")
 	)
 	(label "HO1"
 		(at 127 157.48 180)
@@ -9137,18 +9090,18 @@
 		(uuid "f4d3b54d-839e-4124-95ca-fdcdc32f8025")
 	)
 	(label "USB_VBUS"
-		(at 68.58 17.78 0)
+		(at 71.12 22.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f8a06d3b-a07e-4e0e-bb0e-acabeef416f8")
 	)
-	(label "USB_VBUS_DET"
-		(at 114.3 43.18 0)
+	(label "USB_VBUS"
+		(at 114.3 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9619,76 +9572,6 @@
 			(project "animated-robot"
 				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 83.82 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "113c4492-5ae7-44f1-b73e-72db6eb503f6")
-		(property "Reference" "R3"
-			(at 86.36 19.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Small"
-			(at 86.36 21.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 83.82 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c2f02406-ba54-410f-81a7-3e6b952e69c9")
-		)
-		(pin "1"
-			(uuid "afb27b84-4c24-4e17-8a85-9180ae758790")
-		)
-		(instances
-			(project "animated-robot"
-				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11948,76 +11831,6 @@
 			(project "animated-robot"
 				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 83.82 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51dab94e-9049-4542-bce6-fd361ebcf8f0")
-		(property "Reference" "R4"
-			(at 86.36 24.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Small"
-			(at 86.36 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 83.82 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b212b8ad-87ba-461b-be87-501dcc3790cc")
-		)
-		(pin "1"
-			(uuid "ea5a436b-3a04-4fe9-91b3-7a986665d904")
-		)
-		(instances
-			(project "animated-robot"
-				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -14571,72 +14384,6 @@
 			(project "animated-robot"
 				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 83.82 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9dc6fc16-4163-4b28-9c5a-669ac6d291a4")
-		(property "Reference" "#PWR05"
-			(at 83.82 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 83.82 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c262572-af50-4133-a0f8-0fd71b376173")
-		)
-		(instances
-			(project "animated-robot"
-				(path "/8ca1d24f-691f-408a-ac85-5b754cca902e"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
