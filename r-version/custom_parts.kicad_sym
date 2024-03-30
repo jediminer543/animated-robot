@@ -439,7 +439,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -22.86 90)
 				(length 2.54) hide
 				(name "VSS"
@@ -585,20 +585,20 @@
 			)
 		)
 	)
-	(symbol "LKS32MC034DOF6Q8B"
+	(symbol "LKS32MC034DOFxQx"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at -12.446 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LKS32MC034DOF6Q8B"
-			(at -14.986 19.05 0)
+		(property "Value" "LKS32MC034DOFxQx"
+			(at 0.254 -0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -606,112 +606,59 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-40-1EP_5x5mm_P0.4mm_EP3.6x3.6mm"
-			(at 0 -2.794 0)
+			(at 2.54 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2306211540_LINKOSEMI-LKS32MC034DOF6Q8B_C5362229.pdf"
-			(at 0 -4.064 0)
+			(at 2.54 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Description" "ARM M0 MCU with integrated 6N gate drive"
-			(at 0 0 0)
+			(at 2.54 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "LCSC" "C5362229"
-			(at 0 0 0)
+			(at 2.54 -38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(symbol "LKS32MC034DOF6Q8B_0_1"
+		(symbol "LKS32MC034DOFxQx_1_1"
 			(rectangle
-				(start -10.16 -34.29)
-				(end -3.81 -9.525)
+				(start -15.24 25.4)
+				(end 15.24 -27.94)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-			(rectangle
-				(start -10.16 17.78)
-				(end -3.81 -9.525)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -10.16 17.78)
-				(end 11.43 -34.29)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -3.81 -30.48)
-				(end 3.81 -34.29)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 3.81 -34.29)
-				(end 11.43 -29.21)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 6.35 17.78)
-				(end 11.43 -29.21)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "LKS32MC034DOF6Q8B_1_1"
-			(pin input line
-				(at -12.7 -29.21 0)
+			(pin bidirectional line
+				(at -17.78 -19.05 0)
 				(length 2.54)
 				(name "P1_7"
 					(effects
@@ -728,8 +675,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 2.54 0)
+			(pin bidirectional line
+				(at -17.78 10.16 0)
 				(length 2.54)
 				(name "P0_5"
 					(effects
@@ -746,8 +693,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 0 0)
+			(pin bidirectional line
+				(at -17.78 7.62 0)
 				(length 2.54)
 				(name "P0_6"
 					(effects
@@ -764,8 +711,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 -2.54 0)
+			(pin bidirectional line
+				(at -17.78 2.54 0)
 				(length 2.54)
 				(name "P0_8"
 					(effects
@@ -782,9 +729,9 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 7.62 -36.83 90)
-				(length 2.54)
+			(pin passive line
+				(at 0 -30.48 90)
+				(length 2.54) hide
 				(name "GND"
 					(effects
 						(font
@@ -800,8 +747,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 -5.08 0)
+			(pin bidirectional line
+				(at -17.78 0 0)
 				(length 2.54)
 				(name "P0_9"
 					(effects
@@ -818,8 +765,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 -7.62 0)
+			(pin bidirectional line
+				(at -17.78 5.08 0)
 				(length 2.54)
 				(name "P0_7"
 					(effects
@@ -837,7 +784,7 @@
 				)
 			)
 			(pin power_in line
-				(at 3.81 20.32 270)
+				(at 2.54 27.94 270)
 				(length 2.54)
 				(name "VCCLDO"
 					(effects
@@ -854,8 +801,26 @@
 					)
 				)
 			)
-			(pin input line
-				(at 13.97 -25.4 180)
+			(pin passive line
+				(at 0 -30.48 90)
+				(length 2.54) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -15.24 180)
 				(length 2.54)
 				(name "LO3"
 					(effects
@@ -872,8 +837,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 13.97 -22.86 180)
+			(pin output line
+				(at 17.78 -2.54 180)
 				(length 2.54)
 				(name "LO2"
 					(effects
@@ -890,10 +855,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 -31.75 0)
+			(pin bidirectional line
+				(at -17.78 -24.13 0)
 				(length 2.54)
-				(name "P1_9"
+				(name "P1_9/SWDAT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -908,8 +873,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 13.97 -20.32 180)
+			(pin output line
+				(at 17.78 10.16 180)
 				(length 2.54)
 				(name "LO1"
 					(effects
@@ -927,7 +892,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -15.24 180)
+				(at 17.78 12.7 180)
 				(length 2.54)
 				(name "VS1"
 					(effects
@@ -944,8 +909,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 13.97 -12.7 180)
+			(pin output line
+				(at 17.78 15.24 180)
 				(length 2.54)
 				(name "HO1"
 					(effects
@@ -963,7 +928,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -10.16 180)
+				(at 17.78 17.78 180)
 				(length 2.54)
 				(name "VB1"
 					(effects
@@ -981,7 +946,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 -5.08 180)
+				(at 17.78 0 180)
 				(length 2.54)
 				(name "VS2"
 					(effects
@@ -998,8 +963,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 13.97 -2.54 180)
+			(pin output line
+				(at 17.78 2.54 180)
 				(length 2.54)
 				(name "HO2"
 					(effects
@@ -1017,7 +982,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 0 180)
+				(at 17.78 5.08 180)
 				(length 2.54)
 				(name "VB2"
 					(effects
@@ -1035,7 +1000,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 15.24 180)
+				(at 0 27.94 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -1053,7 +1018,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 5.08 180)
+				(at 17.78 -12.7 180)
 				(length 2.54)
 				(name "VS3"
 					(effects
@@ -1070,8 +1035,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 13.97 7.62 180)
+			(pin output line
+				(at 17.78 -10.16 180)
 				(length 2.54)
 				(name "HO3"
 					(effects
@@ -1088,8 +1053,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 15.24 0)
+			(pin bidirectional line
+				(at -17.78 22.86 0)
 				(length 2.54)
 				(name "P0_0"
 					(effects
@@ -1107,7 +1072,7 @@
 				)
 			)
 			(pin input line
-				(at 13.97 10.16 180)
+				(at 17.78 -7.62 180)
 				(length 2.54)
 				(name "VB3"
 					(effects
@@ -1124,8 +1089,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 -11.43 0)
+			(pin bidirectional line
+				(at -17.78 -3.81 0)
 				(length 2.54)
 				(name "P1_1"
 					(effects
@@ -1142,8 +1107,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 -13.97 0)
+			(pin bidirectional line
+				(at -17.78 -6.35 0)
 				(length 2.54)
 				(name "P1_2"
 					(effects
@@ -1160,8 +1125,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 -16.51 0)
+			(pin bidirectional line
+				(at -17.78 -13.97 0)
 				(length 2.54)
 				(name "P1_5"
 					(effects
@@ -1178,8 +1143,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 -19.05 0)
+			(pin bidirectional line
+				(at -17.78 -8.89 0)
 				(length 2.54)
 				(name "P1_3"
 					(effects
@@ -1196,8 +1161,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 -21.59 0)
+			(pin bidirectional line
+				(at -17.78 -11.43 0)
 				(length 2.54)
 				(name "P1_4"
 					(effects
@@ -1214,9 +1179,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at -2.54 -36.83 90)
-				(length 2.54)
+			(pin no_connect line
+				(at 15.24 -20.32 180)
+				(length 2.54) hide
 				(name "NC"
 					(effects
 						(font
@@ -1232,9 +1197,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 0 -36.83 90)
-				(length 2.54)
+			(pin no_connect line
+				(at 15.24 -22.86 180)
+				(length 2.54) hide
 				(name "NC"
 					(effects
 						(font
@@ -1250,9 +1215,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 2.54 -36.83 90)
-				(length 2.54)
+			(pin no_connect line
+				(at 15.24 -25.4 180)
+				(length 2.54) hide
 				(name "NC"
 					(effects
 						(font
@@ -1268,10 +1233,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 -24.13 0)
+			(pin bidirectional line
+				(at -17.78 -21.59 0)
 				(length 2.54)
-				(name "P1_8"
+				(name "P1_8/SWCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1286,10 +1251,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 12.7 0)
+			(pin bidirectional line
+				(at -17.78 17.78 0)
 				(length 2.54)
-				(name "P0_2"
+				(name "P0_2/~{RST}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1304,8 +1269,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 -26.67 0)
+			(pin bidirectional line
+				(at -17.78 -16.51 0)
 				(length 2.54)
 				(name "P1_6"
 					(effects
@@ -1322,9 +1287,9 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 10.16 -36.83 90)
-				(length 2.54)
+			(pin passive line
+				(at 0 -30.48 90)
+				(length 2.54) hide
 				(name "GND"
 					(effects
 						(font
@@ -1340,8 +1305,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 10.16 0)
+			(pin bidirectional line
+				(at -17.78 20.32 0)
 				(length 2.54)
 				(name "P0_1"
 					(effects
@@ -1358,8 +1323,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 7.62 0)
+			(pin bidirectional line
+				(at -17.78 15.24 0)
 				(length 2.54)
 				(name "P0_3"
 					(effects
@@ -1377,7 +1342,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -36.83 90)
+				(at 0 -30.48 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1395,7 +1360,7 @@
 				)
 			)
 			(pin power_out line
-				(at -1.27 20.32 270)
+				(at 17.78 22.86 180)
 				(length 2.54)
 				(name "AVDD"
 					(effects
@@ -1412,8 +1377,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -12.7 5.08 0)
+			(pin bidirectional line
+				(at -17.78 12.7 0)
 				(length 2.54)
 				(name "P0_4"
 					(effects
