@@ -9,6 +9,7 @@
 *.kicad_sch-bak
 *-backups
 *.kicad_prl
+*.lck
 *.sch-bak
 *~
 _autosave-*
