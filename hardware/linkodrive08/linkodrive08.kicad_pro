@@ -369,6 +369,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Voltage Tol",
+          "name": "Voltage Tol",
+          "show": true
         }
       ],
       "filter_string": "",
