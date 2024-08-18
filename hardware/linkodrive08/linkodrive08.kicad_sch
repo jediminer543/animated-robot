@@ -7448,6 +7448,12 @@
 		(uuid "29defff4-0ba7-48f4-94fa-710e0ac2edf5")
 	)
 	(junction
+		(at 382.27 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c6199a5-9d22-4254-a7b4-f1790e09f906")
+	)
+	(junction
 		(at 130.81 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9121,6 +9127,16 @@
 		)
 		(uuid "32941636-5d87-4e64-b37f-0583b3200af8")
 	)
+	(wire
+		(pts
+			(xy 294.64 139.7) (xy 294.64 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c6f618-4d28-4c93-83c3-8e78b6f1191a")
+	)
 	(polyline
 		(pts
 			(xy 134.62 160.02) (xy 134.62 283.21)
@@ -9390,6 +9406,16 @@
 			(type default)
 		)
 		(uuid "3f60b7d3-a9b4-459d-b82c-3a365a10544f")
+	)
+	(wire
+		(pts
+			(xy 382.27 93.98) (xy 382.27 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff40271-9f06-43b7-bd92-4ce7fda483fc")
 	)
 	(wire
 		(pts
@@ -10251,6 +10277,16 @@
 		)
 		(uuid "6c17758e-f9a8-41a9-afe1-5e1999837271")
 	)
+	(polyline
+		(pts
+			(xy 165.1 156.845) (xy 220.345 156.845)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb510d5-7aab-4667-892c-38412aca34d3")
+	)
 	(wire
 		(pts
 			(xy 46.99 36.83) (xy 46.99 38.1)
@@ -10850,6 +10886,26 @@
 			(type default)
 		)
 		(uuid "8680c0cc-7ae8-47d7-a678-7079a94f8878")
+	)
+	(wire
+		(pts
+			(xy 382.27 99.06) (xy 384.81 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86a8feca-01c6-452e-9ccb-ca8d855d9ec3")
+	)
+	(polyline
+		(pts
+			(xy 220.345 156.845) (xy 220.345 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "871f6046-d65b-4bf9-9e7f-f4c0e5db19db")
 	)
 	(wire
 		(pts
@@ -11833,6 +11889,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 148.59) (xy 294.64 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d36d88-eabf-425f-a80a-2c2689c011c2")
+	)
+	(wire
+		(pts
 			(xy 25.4 255.27) (xy 40.64 255.27)
 		)
 		(stroke
@@ -11913,7 +11979,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 99.06) (xy 384.81 99.06)
+			(xy 378.46 99.06) (xy 382.27 99.06)
 		)
 		(stroke
 			(width 0)
@@ -12241,6 +12307,16 @@
 		)
 		(uuid "c6d12543-375b-4e9c-882e-dd118f7f067a")
 	)
+	(polyline
+		(pts
+			(xy 289.56 129.54) (xy 289.56 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7246a6e-11f9-4aa3-b797-2f734c313f19")
+	)
 	(wire
 		(pts
 			(xy 148.59 237.49) (xy 148.59 238.76)
@@ -12510,6 +12586,16 @@
 			(type default)
 		)
 		(uuid "d2f5f958-d1d7-41fe-bb4b-2bde85ac693e")
+	)
+	(wire
+		(pts
+			(xy 307.34 148.59) (xy 294.64 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4881e55-5082-445b-b545-6c59c8449587")
 	)
 	(wire
 		(pts
@@ -13463,6 +13549,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 139.7) (xy 294.64 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc0db5c7-44ea-45b1-a766-11ff65c74d42")
+	)
+	(wire
+		(pts
 			(xy 354.33 104.14) (xy 354.33 111.76)
 		)
 		(stroke
@@ -13761,6 +13857,16 @@
 			)
 		)
 		(uuid "68546522-2bf6-4c05-acb6-5e1138b6cd1d")
+	)
+	(text "Voltage TSTs\nplace near assoc.\ncomponents"
+		(exclude_from_sim no)
+		(at 181.102 164.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "69729f5a-7097-45a9-a71b-85981cbfff35")
 	)
 	(text "Remuxable in \nsoftware\n"
 		(exclude_from_sim no)
@@ -14742,6 +14848,17 @@
 			(justify left bottom)
 		)
 		(uuid "5837fc4a-a3b1-41cf-ab3b-943cf64adba9")
+	)
+	(label "UART_RX"
+		(at 307.34 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59f95605-c182-4ff2-94c4-b960ced84439")
 	)
 	(label "VB1"
 		(at 266.7 198.12 0)
@@ -15755,6 +15872,17 @@
 		)
 		(uuid "ef343a23-d9a3-44dc-874f-a4d32fc48210")
 	)
+	(label "UART_TX"
+		(at 307.34 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "efc7cdab-a580-4716-bd1d-217e0babcfef")
+	)
 	(label "ENC_B"
 		(at 25.4 267.97 0)
 		(fields_autoplaced yes)
@@ -15983,7 +16111,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 304.8 213.36 0)
 			(effects
 				(font
@@ -16002,6 +16130,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 304.8 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22859"
 			(at 304.8 213.36 0)
 			(effects
 				(font
@@ -16053,7 +16190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 198.12 274.32 0)
 			(effects
 				(font
@@ -16261,7 +16398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 			(at 35.56 39.37 0)
 			(effects
 				(font
@@ -16280,6 +16417,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 31.75 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2765186"
 			(at 31.75 39.37 0)
 			(effects
 				(font
@@ -16463,6 +16609,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 185.42 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerances" "15V"
 			(at 185.42 257.81 0)
 			(effects
 				(font
@@ -16718,7 +16873,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.72 203.2 0)
 			(effects
 				(font
@@ -16737,6 +16892,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 172.72 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23197"
 			(at 172.72 203.2 0)
 			(effects
 				(font
@@ -16966,9 +17130,76 @@
 			(uuid "90c2c6b4-774d-4838-b682-d6103294cf76")
 		)
 		(instances
-			(project ""
+			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 175.26 171.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dea838c-569c-467a-b8b5-306ab46f7377")
+		(property "Reference" "TP4"
+			(at 180.34 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WCH_VTST"
+			(at 180.34 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 175.26 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd2b2135-8e84-4151-a5c7-4962800fd709")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -17241,7 +17472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Tol" "50V"
+		(property "Tolerances" "50V"
 			(at 332.74 109.22 0)
 			(effects
 				(font
@@ -17612,6 +17843,15 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerances" "15V"
+			(at 312.42 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d12c0dd3-760b-4b2c-8f91-4d9d857c39fd")
 		)
@@ -17756,7 +17996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Tol" "15V"
+		(property "Tolerances" "15V"
 			(at 396.24 106.68 0)
 			(effects
 				(font
@@ -17878,7 +18118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.87 26.67 0)
 			(effects
 				(font
@@ -17897,6 +18137,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 102.87 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 102.87 26.67 0)
 			(effects
 				(font
@@ -18170,7 +18419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 280.67 184.15 90)
 			(effects
 				(font
@@ -18316,7 +18565,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 177.8 254 0)
 			(effects
 				(font
@@ -18335,6 +18584,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 177.8 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22859"
 			(at 177.8 254 0)
 			(effects
 				(font
@@ -18383,7 +18641,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 176.53 200.66 0)
 			(effects
 				(font
@@ -18410,6 +18668,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22859"
+			(at 176.53 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb2e94b2-73ee-4de6-bf5a-7c14ed5fa478")
 		)
@@ -18420,6 +18687,73 @@
 			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 294.64 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eb8fb17-765e-44df-80b5-d8163e566718")
+		(property "Reference" "TP2"
+			(at 297.18 141.4779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 297.18 144.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 294.64 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c291dddf-221b-4b6e-8fa9-ac5746d84756")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -18687,7 +19021,7 @@
 			(uuid "d2e058f6-b1f6-4123-9232-3ff6f42b98ba")
 		)
 		(instances
-			(project ""
+			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "#PWR074")
 					(unit 1)
@@ -18753,7 +19087,7 @@
 			(uuid "335ddedd-4f44-400c-8f4e-0205c80d7cb6")
 		)
 		(instances
-			(project ""
+			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "#PWR075")
 					(unit 1)
@@ -18823,7 +19157,7 @@
 			(uuid "0bf6371f-b1c5-40e9-a2a7-2af63010adb7")
 		)
 		(instances
-			(project ""
+			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "R41")
 					(unit 1)
@@ -18848,7 +19182,7 @@
 				)
 			)
 		)
-		(property "Value" "ES2JF"
+		(property "Value" "ES2DB"
 			(at 294.132 211.074 0)
 			(effects
 				(font
@@ -18856,7 +19190,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 297.18 213.36 90)
 			(effects
 				(font
@@ -18901,7 +19235,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7420342"
+		(property "LCSC" "C162764"
+			(at 297.18 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerances" "200V"
 			(at 297.18 213.36 0)
 			(effects
 				(font
@@ -19093,7 +19436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 157.48 187.96 0)
 			(effects
 				(font
@@ -19112,6 +19455,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 157.48 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23164"
 			(at 157.48 187.96 0)
 			(effects
 				(font
@@ -19256,7 +19608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Tol" "15V"
+		(property "LCSC" "C14663"
 			(at 254 127 0)
 			(effects
 				(font
@@ -19265,7 +19617,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "Tolerances" "15V"
 			(at 254 127 0)
 			(effects
 				(font
@@ -19306,7 +19658,7 @@
 				)
 			)
 		)
-		(property "Value" "ES2JF"
+		(property "Value" "ES2DB"
 			(at 167.132 264.414 0)
 			(effects
 				(font
@@ -19314,7 +19666,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 170.18 266.7 90)
 			(effects
 				(font
@@ -19359,7 +19711,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7420342"
+		(property "LCSC" "C162764"
+			(at 170.18 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerances" "200V"
 			(at 170.18 266.7 0)
 			(effects
 				(font
@@ -19535,7 +19896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
+		(property "Value" "MOT_GND"
 			(at 294.64 236.2199 90)
 			(effects
 				(font
@@ -19987,7 +20348,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "38729c07-22fb-450f-9040-cb95a2a5a824")
 		(property "Reference" "J16"
 			(at 104.14 267.9699 0)
@@ -20083,7 +20444,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.99 269.24 0)
 			(effects
 				(font
@@ -20102,6 +20463,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 173.99 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23197"
 			(at 173.99 269.24 0)
 			(effects
 				(font
@@ -20229,7 +20599,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 300.99 215.9 0)
 			(effects
 				(font
@@ -20248,6 +20618,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 300.99 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23197"
 			(at 300.99 215.9 0)
 			(effects
 				(font
@@ -20297,7 +20676,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 283.21 236.22 0)
 			(effects
 				(font
@@ -20356,7 +20735,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3ed11b73-77ad-4668-9261-78e334cf5174")
 		(property "Reference" "#FLG03"
 			(at 370.84 41.275 0)
@@ -20367,12 +20745,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 370.84 38.1 0)
+		(property "Value" "XL1509_OUT"
+			(at 365.252 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -20571,7 +20950,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 176.53 213.36 0)
 			(effects
 				(font
@@ -20590,6 +20969,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 176.53 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22859"
 			(at 176.53 213.36 0)
 			(effects
 				(font
@@ -20638,7 +21026,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.72 215.9 0)
 			(effects
 				(font
@@ -20657,6 +21045,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 172.72 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23197"
 			(at 172.72 215.9 0)
 			(effects
 				(font
@@ -20787,7 +21184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 158.75 241.3 0)
 			(effects
 				(font
@@ -20806,6 +21203,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 158.75 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23164"
 			(at 158.75 241.3 0)
 			(effects
 				(font
@@ -21181,7 +21587,7 @@
 			(uuid "94f7766a-8f00-4b54-a52a-246d7928f701")
 		)
 		(instances
-			(project ""
+			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "C27")
 					(unit 1)
@@ -21301,6 +21707,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 184.15 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerances" "15V"
 			(at 184.15 204.47 0)
 			(effects
 				(font
@@ -21685,7 +22100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 384.81 114.3 0)
 			(effects
 				(font
@@ -21704,6 +22119,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 384.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 384.81 114.3 0)
 			(effects
 				(font
@@ -22412,6 +22836,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C74192"
+			(at 330.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "27b951b9-ea0d-4a02-afe5-83e096e6cc7f")
 		)
@@ -22566,7 +22999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Tol" "50V"
+		(property "LCSC" "C14663"
 			(at 274.32 146.05 0)
 			(effects
 				(font
@@ -22575,7 +23008,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "Tolerances" "50V"
 			(at 274.32 146.05 0)
 			(effects
 				(font
@@ -22657,7 +23090,7 @@
 			(uuid "e789a6dd-b3ba-4649-ae5d-fbe86eb13224")
 		)
 		(instances
-			(project ""
+			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "#PWR064")
 					(unit 1)
@@ -23283,7 +23716,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Tol" "50V"
+		(property "LCSC" "C14663"
 			(at 243.84 146.05 0)
 			(effects
 				(font
@@ -23292,7 +23725,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "Tolerances" "50V"
 			(at 243.84 146.05 0)
 			(effects
 				(font
@@ -23333,7 +23766,7 @@
 				)
 			)
 		)
-		(property "Value" "ES2JF"
+		(property "Value" "ES2DB"
 			(at 165.862 211.074 0)
 			(effects
 				(font
@@ -23341,7 +23774,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 168.91 213.36 90)
 			(effects
 				(font
@@ -23386,7 +23819,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7420342"
+		(property "LCSC" "C162764"
+			(at 168.91 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerances" "200V"
 			(at 168.91 213.36 0)
 			(effects
 				(font
@@ -23484,6 +23926,73 @@
 			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 201.93 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74191063-61cc-4b75-9661-3f3dc15fb225")
+		(property "Reference" "TP6"
+			(at 207.01 163.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LKS_VTST"
+			(at 207.01 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 201.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e08118f-9b84-464a-9eb5-13aaea77a290")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -23759,7 +24268,7 @@
 			(uuid "d55def19-d28a-486f-9b07-4c1b226c3376")
 		)
 		(instances
-			(project ""
+			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "J12")
 					(unit 1)
@@ -24059,6 +24568,73 @@
 			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 200.66 171.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d43d324-a9d4-454c-9a8f-8f412d2a5d9e")
+		(property "Reference" "TP5"
+			(at 205.74 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LKS_VTST"
+			(at 205.74 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 200.66 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36e14c6d-e2ef-425b-954d-f98b64cb08df")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -24610,7 +25186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Tol" "50V"
+		(property "LCSC" "C14663"
 			(at 254 146.05 0)
 			(effects
 				(font
@@ -24619,7 +25195,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "Tolerances" "50V"
 			(at 254 146.05 0)
 			(effects
 				(font
@@ -24987,7 +25563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Tol" "15V"
+		(property "LCSC" "C13585"
 			(at 264.16 127 0)
 			(effects
 				(font
@@ -24996,7 +25572,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C13585"
+		(property "Tolerances" "15V"
 			(at 264.16 127 0)
 			(effects
 				(font
@@ -25075,7 +25651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Tol" "15V"
+		(property "LCSC" "C13585"
 			(at 304.8 48.26 0)
 			(effects
 				(font
@@ -25084,7 +25660,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C13585"
+		(property "Tolerances" "15V"
 			(at 304.8 48.26 0)
 			(effects
 				(font
@@ -25786,6 +26362,73 @@
 	)
 	(symbol
 		(lib_id "power:Vdrive")
+		(at 201.93 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99259ce6-eac9-490c-be5f-a07cf9cba617")
+		(property "Reference" "#PWR084"
+			(at 205.74 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vdrive"
+			(at 198.12 165.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6c22310-4311-42ea-b8c4-d3cd1c5e8183")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Vdrive")
 		(at 400.05 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26085,7 +26728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 355.6 48.26 90)
 			(effects
 				(font
@@ -26164,7 +26807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 325.12 220.98 0)
 			(effects
 				(font
@@ -26420,7 +27063,7 @@
 			(uuid "46206d27-0d70-447a-9f31-b2a59731d37b")
 		)
 		(instances
-			(project ""
+			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "D12")
 					(unit 1)
@@ -26519,7 +27162,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 304.8 200.66 0)
 			(effects
 				(font
@@ -26538,6 +27181,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 304.8 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22859"
 			(at 304.8 200.66 0)
 			(effects
 				(font
@@ -26619,7 +27271,7 @@
 			(uuid "db2051b0-b93e-47ae-bbf8-7d736ec87058")
 		)
 		(instances
-			(project ""
+			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "#PWR063")
 					(unit 1)
@@ -26655,7 +27307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.79 199.39 0)
 			(effects
 				(font
@@ -26674,6 +27326,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 224.79 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 224.79 199.39 0)
 			(effects
 				(font
@@ -27041,7 +27702,7 @@
 			(uuid "5d6e9fe3-bfdc-4b0f-a213-af156a1973fd")
 		)
 		(instances
-			(project ""
+			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "J14")
 					(unit 1)
@@ -27077,7 +27738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 196.85 220.98 0)
 			(effects
 				(font
@@ -27513,7 +28174,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 107.95 219.71 0)
 			(effects
 				(font
@@ -27532,6 +28193,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 107.95 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 107.95 219.71 0)
 			(effects
 				(font
@@ -27610,7 +28280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Tol" "15V"
+		(property "LCSC" "C14663"
 			(at 243.84 127 0)
 			(effects
 				(font
@@ -27619,7 +28289,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "Tolerances" "15V"
 			(at 243.84 127 0)
 			(effects
 				(font
@@ -28124,6 +28794,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 175.26 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b369fad7-320d-4538-be21-0d9a0294d4f6")
+		(property "Reference" "#PWR082"
+			(at 179.07 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 170.18 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 175.26 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14399817-ae61-4c64-bf35-112be3fa180b")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Vdrive")
 		(at 243.84 124.46 0)
 		(unit 1)
@@ -28353,7 +29088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 353.06 199.39 0)
 			(effects
 				(font
@@ -28372,6 +29107,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 353.06 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 353.06 199.39 0)
 			(effects
 				(font
@@ -28834,7 +29578,7 @@
 				)
 			)
 		)
-		(property "Value" "ES2JF"
+		(property "Value" "ES2DB"
 			(at 295.402 198.374 0)
 			(effects
 				(font
@@ -28842,7 +29586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 297.18 200.66 90)
 			(effects
 				(font
@@ -28887,7 +29631,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7420342"
+		(property "LCSC" "C162764"
+			(at 297.18 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerances" "200V"
 			(at 297.18 200.66 0)
 			(effects
 				(font
@@ -29045,7 +29798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Tol" "15V"
+		(property "LCSC" "C13585"
 			(at 274.32 127 0)
 			(effects
 				(font
@@ -29054,7 +29807,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C13585"
+		(property "Tolerances" "15V"
 			(at 274.32 127 0)
 			(effects
 				(font
@@ -29176,7 +29929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 285.75 187.96 0)
 			(effects
 				(font
@@ -29195,6 +29948,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 285.75 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23164"
 			(at 285.75 187.96 0)
 			(effects
 				(font
@@ -29243,7 +30005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 300.99 203.2 0)
 			(effects
 				(font
@@ -29262,6 +30024,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 300.99 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23197"
 			(at 300.99 203.2 0)
 			(effects
 				(font
@@ -29340,7 +30111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Tol" "50V"
+		(property "LCSC" "C14663"
 			(at 264.16 146.05 0)
 			(effects
 				(font
@@ -29349,7 +30120,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "Tolerances" "50V"
 			(at 264.16 146.05 0)
 			(effects
 				(font
@@ -29587,6 +30358,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 382.27 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6e6b770-101d-4837-9e5f-a1cdc40ed19d")
+		(property "Reference" "#FLG07"
+			(at 382.27 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LGS5145_OUT"
+			(at 376.682 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 382.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 382.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 382.27 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0a45639-345c-401d-b598-07c5d3f7af05")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky_Small")
 		(at 153.67 237.49 180)
 		(unit 1)
@@ -29613,7 +30450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 153.67 237.49 90)
 			(effects
 				(font
@@ -29741,7 +30578,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "da6c0cf7-8090-44df-8152-c67d395b4c0f")
 		(property "Reference" "J15"
@@ -29797,7 +30634,7 @@
 			(uuid "9605dff4-57c8-4f23-bd23-0248234890b6")
 		)
 		(instances
-			(project ""
+			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "J15")
 					(unit 1)
@@ -29851,6 +30688,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 312.42 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerances" "15V"
 			(at 312.42 204.47 0)
 			(effects
 				(font
@@ -30153,7 +30999,7 @@
 			(uuid "ccd2c9a7-7f4f-4958-bb55-ca22fbd3086e")
 		)
 		(instances
-			(project ""
+			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "J13")
 					(unit 1)
@@ -30390,6 +31236,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 294.64 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e661fd60-f39d-421e-9ead-5926b0f8a698")
+		(property "Reference" "TP1"
+			(at 297.18 132.5879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 297.18 135.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 299.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 294.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e43eea32-a24f-474b-be0b-b2b4b46284ff")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 384.81 116.84 0)
 		(unit 1)
@@ -30483,7 +31396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.79 252.73 0)
 			(effects
 				(font
@@ -30502,6 +31415,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 224.79 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 224.79 252.73 0)
 			(effects
 				(font
@@ -30783,6 +31705,15 @@
 			)
 		)
 		(property "Description" "CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8"
+			(at 99.06 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C12084"
 			(at 99.06 134.62 0)
 			(effects
 				(font
@@ -31129,7 +32060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 152.4 184.15 90)
 			(effects
 				(font
@@ -31197,7 +32128,7 @@
 				)
 			)
 		)
-		(property "Value" "ES2JF"
+		(property "Value" "ES2DB"
 			(at 167.132 198.374 0)
 			(effects
 				(font
@@ -31205,7 +32136,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 168.91 200.66 90)
 			(effects
 				(font
@@ -31250,7 +32181,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7420342"
+		(property "LCSC" "C162764"
+			(at 168.91 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerances" "200V"
 			(at 168.91 200.66 0)
 			(effects
 				(font
@@ -31320,6 +32260,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 184.15 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerances" "15V"
 			(at 184.15 217.17 0)
 			(effects
 				(font
@@ -31458,6 +32407,15 @@
 			)
 		)
 		(property "Description" "1A, 1.2MHz Buck DC/DC Converter, adjustable output voltage, 4.5..55V input, 0.8..50V output, SOT-23-6"
+			(at 341.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5123971"
 			(at 341.63 101.6 0)
 			(effects
 				(font
@@ -31669,7 +32627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 229.87 54.61 0)
 			(effects
 				(font
@@ -31688,6 +32646,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 229.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 229.87 54.61 0)
 			(effects
 				(font
@@ -31736,7 +32703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 177.8 266.7 0)
 			(effects
 				(font
@@ -31755,6 +32722,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 177.8 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22859"
 			(at 177.8 266.7 0)
 			(effects
 				(font
@@ -31803,7 +32779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.99 256.54 0)
 			(effects
 				(font
@@ -31822,6 +32798,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 173.99 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23197"
 			(at 173.99 256.54 0)
 			(effects
 				(font
@@ -31862,7 +32847,7 @@
 				)
 			)
 		)
-		(property "Value" "ES2JF"
+		(property "Value" "ES2DB"
 			(at 168.402 251.714 0)
 			(effects
 				(font
@@ -31870,7 +32855,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 170.18 254 90)
 			(effects
 				(font
@@ -31915,7 +32900,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7420342"
+		(property "LCSC" "C162764"
+			(at 170.18 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerances" "200V"
 			(at 170.18 254 0)
 			(effects
 				(font
@@ -31985,6 +32979,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 185.42 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerances" "15V"
 			(at 185.42 270.51 0)
 			(effects
 				(font
@@ -32139,6 +33142,71 @@
 			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 200.66 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f85437a4-4575-4b6a-9328-422a15d178f8")
+		(property "Reference" "#PWR083"
+			(at 204.47 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 195.58 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 200.66 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "114cfd4c-ec2e-47b6-8539-a023184f96ee")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
