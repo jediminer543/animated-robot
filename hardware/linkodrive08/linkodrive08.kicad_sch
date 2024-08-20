@@ -7725,6 +7725,12 @@
 		(uuid "697da452-6970-48d6-800a-b3fe904381d7")
 	)
 	(junction
+		(at 116.84 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b807479-f2cb-42f9-be34-15abcdc4488f")
+	)
+	(junction
 		(at 308.61 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7849,6 +7855,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a20e3a0-0ab3-4e42-8880-8609480cd83e")
+	)
+	(junction
+		(at 107.95 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9aca320f-b1aa-4557-a5d3-6d0f2ef89717")
 	)
 	(junction
 		(at 224.79 250.19)
@@ -9416,6 +9428,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 214.63) (xy 127 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fadb36e-d66d-481f-aab2-80d989d8399b")
+	)
+	(wire
+		(pts
 			(xy 382.27 93.98) (xy 382.27 99.06)
 		)
 		(stroke
@@ -9693,6 +9715,16 @@
 			(type default)
 		)
 		(uuid "4bdeb4e4-0fdc-4aa3-9324-9dae051896ef")
+	)
+	(wire
+		(pts
+			(xy 116.84 214.63) (xy 116.84 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4db9c90e-8b3c-40a1-8e2f-ec36bc200102")
 	)
 	(wire
 		(pts
@@ -10614,6 +10646,16 @@
 		)
 		(uuid "7d33d3f0-49a6-424d-87df-b1d4d3a415f0")
 	)
+	(polyline
+		(pts
+			(xy 386.08 129.54) (xy 386.08 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da7d661-e4f4-4559-bff1-01f37e7cac49")
+	)
 	(wire
 		(pts
 			(xy 335.28 109.22) (xy 341.63 109.22)
@@ -11456,7 +11498,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 214.63) (xy 127 214.63)
+			(xy 114.3 214.63) (xy 116.84 214.63)
 		)
 		(stroke
 			(width 0)
@@ -12143,6 +12185,16 @@
 			(type default)
 		)
 		(uuid "c009ac10-2d43-4c16-9ef2-0181a95bbac2")
+	)
+	(wire
+		(pts
+			(xy 107.95 222.25) (xy 116.84 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0316d5f-05cd-4144-be62-9e52195430a7")
 	)
 	(wire
 		(pts
@@ -13565,6 +13617,16 @@
 		)
 		(uuid "0d57f0bb-d836-4c21-9bb3-552847275a53")
 	)
+	(text "Spec'd for ~160kHz cutoff"
+		(exclude_from_sim no)
+		(at 363.474 186.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "116feb2a-3d45-4909-8086-769f627e2bd3")
+	)
 	(text "xxx how do we calculate proper delta I_L for DCM? forgor\nwith the usual CCM calculations get < ~600 mA\nand a minimum output cap of 1.6 uF"
 		(exclude_from_sim no)
 		(at 358.394 64.008 0)
@@ -13745,6 +13807,26 @@
 		)
 		(uuid "57b93442-6cbd-4785-b6ad-65a2ee37d2ef")
 	)
+	(text "Spec'd for ~160kHz cutoff"
+		(exclude_from_sim no)
+		(at 229.108 185.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "57cca0b7-0d9b-46ed-8785-a5d245a0f7be")
+	)
+	(text "Possible other transistor options:\n- HSU6066 - C22359249\n- WSD4070DN - C719095"
+		(exclude_from_sim no)
+		(at 311.404 153.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5d218e97-8f97-43d2-a484-5dd702d5fb9c")
+	)
 	(text "can use spi if we want, else bitbang"
 		(exclude_from_sim no)
 		(at 109.22 51.308 0)
@@ -13757,7 +13839,7 @@
 	)
 	(text "Left\nIntentionally\nBlank"
 		(exclude_from_sim no)
-		(at 332.232 151.13 0)
+		(at 395.732 183.388 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13905,6 +13987,16 @@
 		)
 		(uuid "8b656c97-9e87-4c2f-9a1a-1224243882df")
 	)
+	(text "This is a dev board and is both subject to change and may not work"
+		(exclude_from_sim no)
+		(at 330.454 135.636 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "91f7cba2-8194-42e1-a64a-c088bd436b88")
+	)
 	(text "General bulk cap"
 		(exclude_from_sim no)
 		(at 270.51 134.62 0)
@@ -13944,6 +14036,16 @@
 			)
 		)
 		(uuid "a1923056-be41-4b6e-8a19-f790578429b1")
+	)
+	(text "General notes"
+		(exclude_from_sim no)
+		(at 332.486 132.334 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2b8126b-0773-4866-938d-4ae971eb4472")
 	)
 	(text "USB Connector"
 		(exclude_from_sim no)
@@ -13985,6 +14087,26 @@
 		)
 		(uuid "ac8b6fea-11be-4f56-b200-0f11e563aa89")
 	)
+	(text "Spec'd for ~160kHz cutoff"
+		(exclude_from_sim no)
+		(at 226.06 240.284 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af310821-5db7-49bf-8b8d-b970b9390e8d")
+	)
+	(text "Spec'd for ~160kHz cutoff"
+		(exclude_from_sim no)
+		(at 113.538 199.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b09b30c6-9fba-40f8-bc2e-e2a13c9b9927")
+	)
 	(text "CAN"
 		(exclude_from_sim no)
 		(at 65.786 158.75 0)
@@ -14004,6 +14126,16 @@
 			)
 		)
 		(uuid "b4994b12-9ced-4875-9ecd-877aa6846d36")
+	)
+	(text "To spec the divder low pass filters:\nCalc thevamin resistance\nwhich in this simple case is te two resistors paralleled\nAnd then punch that value into your low pass filter calc"
+		(exclude_from_sim no)
+		(at 354.838 169.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b7c845d2-e992-462b-8d9d-2dda370c7415")
 	)
 	(text "Spare LKS IO"
 		(exclude_from_sim no)
@@ -15950,7 +16082,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WSD4070DN"
+		(property "Value" "HSU6066"
 			(at 328.93 201.9299 0)
 			(effects
 				(font
@@ -15959,7 +16091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 327.66 198.12 0)
 			(effects
 				(font
@@ -15986,7 +16118,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C719095"
+		(property "LCSC" "C22359249"
 			(at 322.58 200.66 0)
 			(effects
 				(font
@@ -16448,7 +16580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 62.23 49.53 0)
 			(effects
 				(font
@@ -16467,6 +16599,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 62.23 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23186"
 			(at 62.23 49.53 0)
 			(effects
 				(font
@@ -16892,7 +17033,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 233.68 95.25 0)
 			(effects
 				(font
@@ -17105,7 +17246,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 219.71 270.51 0)
 			(effects
 				(font
@@ -17175,7 +17316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 205.74 95.25 0)
 			(effects
 				(font
@@ -17465,7 +17606,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 43.18 172.72 0)
 			(effects
 				(font
@@ -17484,6 +17625,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 43.18 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
 			(at 43.18 172.72 0)
 			(effects
 				(font
@@ -17834,7 +17984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 353.06 194.31 0)
 			(effects
 				(font
@@ -17853,6 +18003,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 353.06 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23153"
 			(at 353.06 194.31 0)
 			(effects
 				(font
@@ -18716,7 +18875,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.79 247.65 0)
 			(effects
 				(font
@@ -18735,6 +18894,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 224.79 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23153"
 			(at 224.79 247.65 0)
 			(effects
 				(font
@@ -18936,7 +19104,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 73.66 172.72 0)
 			(effects
 				(font
@@ -18955,6 +19123,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 73.66 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
 			(at 73.66 172.72 0)
 			(effects
 				(font
@@ -19376,76 +19553,6 @@
 			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 107.95 209.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "257205ec-e267-4270-86da-b7db061daab2")
-		(property "Reference" "R41"
-			(at 110.49 208.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "500k"
-			(at 110.49 210.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 107.95 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d42563c-6ab5-4793-a315-c9cafa444a85")
-		)
-		(pin "2"
-			(uuid "0bf6371f-b1c5-40e9-a2a7-2af63010adb7")
-		)
-		(instances
-			(project "linkodrive08"
-				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
-					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -19968,7 +20075,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 218.44 217.17 0)
 			(effects
 				(font
@@ -20436,7 +20543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 106.68 269.24 0)
 			(effects
 				(font
@@ -21976,7 +22083,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 381 45.72 0)
 			(effects
 				(font
@@ -21995,6 +22102,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 381 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4216"
 			(at 381 45.72 0)
 			(effects
 				(font
@@ -22890,7 +23006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 262.89 167.64 0)
 			(effects
 				(font
@@ -22917,7 +23033,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25803"
 			(at 262.89 167.64 0)
 			(effects
 				(font
@@ -23325,7 +23441,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 346.71 224.79 0)
 			(effects
 				(font
@@ -23808,7 +23924,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WSD4070DN"
+		(property "Value" "HSU6066"
 			(at 201.93 267.9699 0)
 			(effects
 				(font
@@ -23817,7 +23933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 200.66 264.16 0)
 			(effects
 				(font
@@ -23844,7 +23960,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C719095"
+		(property "LCSC" "C22359249"
 			(at 195.58 266.7 0)
 			(effects
 				(font
@@ -24485,7 +24601,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 107.95 181.61 0)
 			(effects
 				(font
@@ -24837,6 +24953,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 107.95 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c360680-e752-4338-a209-fbd0d1d0c07e")
+		(property "Reference" "R42"
+			(at 110.49 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 110.49 220.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 107.95 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 107.95 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 107.95 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f6d6145-508b-4256-893f-4989fd1376c2")
+		)
+		(pin "1"
+			(uuid "80664c61-5c12-4dbf-b1a3-856a76819331")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 200.66 171.45 270)
 		(unit 1)
@@ -25129,7 +25324,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WSD4070DN"
+		(property "Value" "HSU6066"
 			(at 328.93 214.6299 0)
 			(effects
 				(font
@@ -25138,7 +25333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 327.66 210.82 0)
 			(effects
 				(font
@@ -25165,7 +25360,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C719095"
+		(property "LCSC" "C22359249"
 			(at 322.58 213.36 0)
 			(effects
 				(font
@@ -25352,7 +25547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 384.81 106.68 0)
 			(effects
 				(font
@@ -25371,6 +25566,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 384.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25808"
 			(at 384.81 106.68 0)
 			(effects
 				(font
@@ -25858,7 +26062,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR5040S"
 			(at 375.92 99.06 0)
 			(effects
 				(font
@@ -25885,7 +26089,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C13585"
+		(property "LCSC" "C167967"
 			(at 375.92 99.06 0)
 			(effects
 				(font
@@ -26067,7 +26271,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 219.71 278.13 0)
 			(effects
 				(font
@@ -26170,6 +26374,85 @@
 			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 107.95 209.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "946cc8ba-1163-4f00-96bf-5e0d676df175")
+		(property "Reference" "R41"
+			(at 110.49 208.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "39k"
+			(at 110.49 210.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 107.95 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 107.95 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23153"
+			(at 107.95 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "703d5916-8fa5-4399-a22f-c8c58fc4a4ff")
+		)
+		(pin "1"
+			(uuid "dd590784-a314-42aa-8133-e3bc2791c076")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -26668,7 +26951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 52.07 49.53 0)
 			(effects
 				(font
@@ -26687,6 +26970,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 52.07 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23186"
 			(at 52.07 49.53 0)
 			(effects
 				(font
@@ -26737,7 +27029,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 50.8 92.71 0)
 			(effects
 				(font
@@ -27032,7 +27324,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 218.44 224.79 0)
 			(effects
 				(font
@@ -27464,7 +27756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.79 199.39 0)
 			(effects
 				(font
@@ -27491,7 +27783,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 224.79 199.39 0)
 			(effects
 				(font
@@ -27819,7 +28111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 281.94 25.4 0)
 			(effects
 				(font
@@ -28304,85 +28596,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 107.95 219.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abad8c80-cf27-41ba-8855-f7dd318aa025")
-		(property "Reference" "R42"
-			(at 110.49 218.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 110.49 220.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 107.95 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 107.95 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25804"
-			(at 107.95 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1275562-eb50-4108-89ec-da27c1015436")
-		)
-		(pin "2"
-			(uuid "64fb5be9-1a53-43aa-9b6f-2fd9e1e101cd")
-		)
-		(instances
-			(project "linkodrive08"
-				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
-					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 213.36 87.63 0)
 		(unit 1)
@@ -28820,7 +29033,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 22.86 92.71 0)
 			(effects
 				(font
@@ -29021,7 +29234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.79 194.31 0)
 			(effects
 				(font
@@ -29040,6 +29253,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 224.79 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23153"
 			(at 224.79 194.31 0)
 			(effects
 				(font
@@ -29091,7 +29313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 353.06 199.39 0)
 			(effects
 				(font
@@ -29118,7 +29340,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 353.06 199.39 0)
 			(effects
 				(font
@@ -29511,6 +29733,85 @@
 			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 116.84 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd00fec6-f458-4d2d-9896-1466a1e685bd")
+		(property "Reference" "C37"
+			(at 119.38 218.4462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 119.38 220.9862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 116.84 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 116.84 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1588"
+			(at 116.84 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7208bd75-f1d9-4744-bfdb-d83a9de01d3d")
+		)
+		(pin "1"
+			(uuid "f777d07c-e87e-48b6-b0d7-a8d0c651f7e4")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -30276,7 +30577,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WSD4070DN"
+		(property "Value" "HSU6066"
 			(at 200.66 201.9299 0)
 			(effects
 				(font
@@ -30285,7 +30586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 199.39 198.12 0)
 			(effects
 				(font
@@ -30312,7 +30613,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C719095"
+		(property "LCSC" "C22359249"
 			(at 194.31 200.66 0)
 			(effects
 				(font
@@ -30811,7 +31112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 101.6 242.57 0)
 			(effects
 				(font
@@ -30953,7 +31254,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WSD4070DN"
+		(property "Value" "HSU6066"
 			(at 201.93 255.2699 0)
 			(effects
 				(font
@@ -30962,7 +31263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 200.66 251.46 0)
 			(effects
 				(font
@@ -30989,7 +31290,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C719095"
+		(property "LCSC" "C22359249"
 			(at 195.58 254 0)
 			(effects
 				(font
@@ -31173,7 +31474,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 143.51 162.56 0)
 			(effects
 				(font
@@ -31247,7 +31548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical"
 			(at 271.78 97.79 0)
 			(effects
 				(font
@@ -31341,7 +31642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 120.65 134.62 0)
 			(effects
 				(font
@@ -31610,7 +31911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.79 252.73 0)
 			(effects
 				(font
@@ -31637,7 +31938,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21190"
 			(at 224.79 252.73 0)
 			(effects
 				(font
@@ -31689,7 +31990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 142.24 129.54 0)
 			(effects
 				(font
@@ -32552,7 +32853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 381 50.8 0)
 			(effects
 				(font
@@ -32571,6 +32872,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 381 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4184"
 			(at 381 50.8 0)
 			(effects
 				(font
@@ -32702,7 +33012,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WSD4070DN"
+		(property "Value" "HSU6066"
 			(at 200.66 214.6299 0)
 			(effects
 				(font
@@ -32711,7 +33021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 199.39 210.82 0)
 			(effects
 				(font
@@ -32738,7 +33048,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C719095"
+		(property "LCSC" "C22359249"
 			(at 194.31 213.36 0)
 			(effects
 				(font
@@ -33401,7 +33711,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 346.71 217.17 0)
 			(effects
 				(font
@@ -33948,7 +34258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 85.09 92.71 0)
 			(effects
 				(font
