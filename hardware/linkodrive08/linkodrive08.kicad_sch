@@ -16091,7 +16091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
 			(at 327.66 198.12 0)
 			(effects
 				(font
@@ -16882,7 +16882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MISSING"
+		(property "Footprint" "Capacitor_SMD:C_Elec_10x10.2"
 			(at 251.46 167.64 0)
 			(effects
 				(font
@@ -18787,7 +18787,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34"
+		(property "Value" "C28646289"
 			(at 285.75 181.61 0)
 			(effects
 				(font
@@ -18796,7 +18796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 280.67 184.15 90)
 			(effects
 				(font
@@ -18823,7 +18823,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C8678"
+		(property "LCSC" "C28646289"
 			(at 280.67 184.15 90)
 			(effects
 				(font
@@ -19575,7 +19575,7 @@
 				)
 			)
 		)
-		(property "Value" "ES2DB"
+		(property "Value" "ES2JW"
 			(at 294.132 211.074 0)
 			(effects
 				(font
@@ -19583,7 +19583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 297.18 213.36 90)
 			(effects
 				(font
@@ -19628,7 +19628,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C162764"
+		(property "LCSC" "C353499"
 			(at 297.18 213.36 0)
 			(effects
 				(font
@@ -19963,7 +19963,7 @@
 				)
 			)
 		)
-		(property "Value" "ES2DB"
+		(property "Value" "ES2JW"
 			(at 167.132 264.414 0)
 			(effects
 				(font
@@ -19971,7 +19971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 170.18 266.7 90)
 			(effects
 				(font
@@ -20016,7 +20016,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C162764"
+		(property "LCSC" "C353499"
 			(at 170.18 266.7 0)
 			(effects
 				(font
@@ -23933,7 +23933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
 			(at 200.66 264.16 0)
 			(effects
 				(font
@@ -24224,7 +24224,7 @@
 				)
 			)
 		)
-		(property "Value" "ES2DB"
+		(property "Value" "ES2JW"
 			(at 165.862 211.074 0)
 			(effects
 				(font
@@ -24232,7 +24232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 168.91 213.36 90)
 			(effects
 				(font
@@ -24277,7 +24277,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C162764"
+		(property "LCSC" "C353499"
 			(at 168.91 213.36 0)
 			(effects
 				(font
@@ -25333,7 +25333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
 			(at 327.66 210.82 0)
 			(effects
 				(font
@@ -27159,7 +27159,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34"
+		(property "Value" "C28646289"
 			(at 358.902 49.784 90)
 			(effects
 				(font
@@ -27168,7 +27168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 355.6 48.26 90)
 			(effects
 				(font
@@ -27195,7 +27195,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C8678"
+		(property "LCSC" "C28646289"
 			(at 355.6 48.26 90)
 			(effects
 				(font
@@ -29471,7 +29471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MISSING"
+		(property "Footprint" "Capacitor_SMD:C_Elec_10x10.2"
 			(at 227.33 167.64 0)
 			(effects
 				(font
@@ -30036,7 +30036,7 @@
 				)
 			)
 		)
-		(property "Value" "ES2DB"
+		(property "Value" "ES2JW"
 			(at 295.402 198.374 0)
 			(effects
 				(font
@@ -30044,7 +30044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 297.18 200.66 90)
 			(effects
 				(font
@@ -30089,7 +30089,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C162764"
+		(property "LCSC" "C353499"
 			(at 297.18 200.66 0)
 			(effects
 				(font
@@ -30586,7 +30586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
 			(at 199.39 198.12 0)
 			(effects
 				(font
@@ -30668,7 +30668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MISSING"
+		(property "Footprint" "Capacitor_SMD:C_Elec_10x10.2"
 			(at 240.03 167.64 0)
 			(effects
 				(font
@@ -30956,7 +30956,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34"
+		(property "Value" "C28646289"
 			(at 158.75 234.95 0)
 			(effects
 				(font
@@ -30965,7 +30965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 153.67 237.49 90)
 			(effects
 				(font
@@ -30992,7 +30992,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C8678"
+		(property "LCSC" "C28646289"
 			(at 153.67 237.49 90)
 			(effects
 				(font
@@ -31263,7 +31263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
 			(at 200.66 251.46 0)
 			(effects
 				(font
@@ -32584,7 +32584,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SS34"
+		(property "Value" "C28646289"
 			(at 157.48 181.61 0)
 			(effects
 				(font
@@ -32593,7 +32593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 152.4 184.15 90)
 			(effects
 				(font
@@ -32620,7 +32620,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C8678"
+		(property "LCSC" "C28646289"
 			(at 152.4 184.15 90)
 			(effects
 				(font
@@ -32661,7 +32661,7 @@
 				)
 			)
 		)
-		(property "Value" "ES2DB"
+		(property "Value" "ES2JW"
 			(at 167.132 198.374 0)
 			(effects
 				(font
@@ -32669,7 +32669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 168.91 200.66 90)
 			(effects
 				(font
@@ -32714,7 +32714,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C162764"
+		(property "LCSC" "C353499"
 			(at 168.91 200.66 0)
 			(effects
 				(font
@@ -33021,7 +33021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+		(property "Footprint" "Package_SO:ONSemi_SO-8FL_488AA"
 			(at 199.39 210.82 0)
 			(effects
 				(font
@@ -33455,7 +33455,7 @@
 				)
 			)
 		)
-		(property "Value" "ES2DB"
+		(property "Value" "ES2JW"
 			(at 168.402 251.714 0)
 			(effects
 				(font
@@ -33463,7 +33463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 170.18 254 90)
 			(effects
 				(font
@@ -33508,7 +33508,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C162764"
+		(property "LCSC" "C353499"
 			(at 170.18 254 0)
 			(effects
 				(font
