@@ -8830,7 +8830,7 @@
 	)
 	(polyline
 		(pts
-			(xy 220.98 152.4) (xy 289.56 152.4)
+			(xy 229.87 152.4) (xy 289.56 152.4)
 		)
 		(stroke
 			(width 0)
@@ -10470,7 +10470,7 @@
 	)
 	(polyline
 		(pts
-			(xy 289.56 137.16) (xy 229.87 137.16)
+			(xy 289.56 137.16) (xy 237.49 137.16)
 		)
 		(stroke
 			(width 0)
@@ -10757,6 +10757,16 @@
 			(type default)
 		)
 		(uuid "791e16ff-1d54-4b17-9bc3-03622dc409fd")
+	)
+	(polyline
+		(pts
+			(xy 229.87 156.21) (xy 229.87 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7934c024-c5d0-49c4-9510-a1e7c748d0a3")
 	)
 	(polyline
 		(pts
@@ -11117,6 +11127,16 @@
 			(type default)
 		)
 		(uuid "854a74c2-1fad-47bd-b987-b56a50d08543")
+	)
+	(polyline
+		(pts
+			(xy 220.98 156.21) (xy 229.87 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85851ddc-025f-4909-ae37-365b79d00a13")
 	)
 	(wire
 		(pts
@@ -13208,6 +13228,16 @@
 		)
 		(uuid "e16531de-7be5-4850-8735-3418168de549")
 	)
+	(polyline
+		(pts
+			(xy 237.49 137.16) (xy 237.49 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22f9cc7-0be5-4f67-8484-3b5ba84f7863")
+	)
 	(wire
 		(pts
 			(xy 158.75 255.27) (xy 158.75 251.46)
@@ -13388,16 +13418,6 @@
 		)
 		(uuid "e9ec8dab-58cd-407d-b01e-f69620701544")
 	)
-	(polyline
-		(pts
-			(xy 220.98 156.21) (xy 220.98 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea0a8c23-fa99-461a-b8b3-a499379419ae")
-	)
 	(wire
 		(pts
 			(xy 191.77 49.53) (xy 214.63 49.53)
@@ -13427,16 +13447,6 @@
 			(type default)
 		)
 		(uuid "ec64204b-b826-4a5a-9f60-ba727956ce31")
-	)
-	(polyline
-		(pts
-			(xy 229.87 137.16) (xy 229.87 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecd1af94-19e0-4ed9-9080-3adbede38bf2")
 	)
 	(wire
 		(pts
@@ -14111,7 +14121,7 @@
 	)
 	(text "Left\nIntentionally\nBlank"
 		(exclude_from_sim no)
-		(at 217.17 133.35 0)
+		(at 339.852 243.078 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14461,7 +14471,7 @@
 	)
 	(text "Likely not needed\nLKS EVB has 220u on 3v3\nUnsure why"
 		(exclude_from_sim no)
-		(at 249.428 124.714 0)
+		(at 250.698 125.984 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14538,6 +14548,16 @@
 			)
 		)
 		(uuid "c2e9c8e2-fda3-401b-a923-177c7f442d30")
+	)
+	(text "Voltage \nPresence \nLEDs"
+		(exclude_from_sim no)
+		(at 239.014 144.018 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c4a77a9f-17ab-4fe4-b965-817fb6dc1cbe")
 	)
 	(text "Total Current Sensing\n"
 		(exclude_from_sim no)
@@ -17631,6 +17651,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 228.6 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09104536-c923-4d5a-ba8b-aa27cb9dd189")
+		(property "Reference" "#PWR098"
+			(at 228.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 228.6 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84827e32-dafa-47c8-ac89-f8be25d8b701")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Vdrive")
 		(at 146.05 237.49 0)
 		(unit 1)
@@ -19913,6 +19999,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 228.6 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "210a655f-7593-4ac1-afdc-98f92fbe9adf")
+		(property "Reference" "R49"
+			(at 231.14 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 231.14 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 228.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 228.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 228.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f8c86c3-f5dc-4291-b08a-5ca7172e1fc5")
+		)
+		(pin "1"
+			(uuid "ae9690a6-efbd-4031-a1e2-759401b6aec3")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 325.12 223.52 0)
 		(unit 1)
@@ -20278,6 +20443,72 @@
 			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "NT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Vdrive")
+		(at 228.6 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29951423-39be-45a6-9430-ca8fac368bf3")
+		(property "Reference" "#PWR097"
+			(at 228.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vdrive"
+			(at 228.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Vdrive\""
+			(at 228.6 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3fbb98f-e206-4980-8086-37c793a0040e")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -21003,6 +21234,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 218.44 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "375100c6-edba-4d06-9afd-b9f15adcbb59")
+		(property "Reference" "R53"
+			(at 220.98 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 220.98 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 218.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 218.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 218.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "213fca40-da09-486e-8536-273cb3c52d18")
+		)
+		(pin "1"
+			(uuid "7f3affc4-fa21-4769-bc0d-8a0f78c1e8d3")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 149.86 121.92 0)
 		(unit 1)
@@ -21590,6 +21900,85 @@
 			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 218.44 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "400d5151-6c7f-4c93-984e-9701a0a8ed90")
+		(property "Reference" "R51"
+			(at 220.98 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 220.98 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 218.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 218.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 218.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "42a15d09-38e8-4974-8aca-3fe0d09f730e")
+		)
+		(pin "1"
+			(uuid "a16d7ca8-1147-4168-b72b-9ef1802ee58f")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -22811,6 +23200,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 218.44 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bd1ca37-bef2-48c0-8305-e08d4fe4c194")
+		(property "Reference" "#PWR0100"
+			(at 218.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "246581f7-52c7-4440-a78c-e8b8129c42e7")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 381 45.72 0)
 		(unit 1)
@@ -23813,6 +24268,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 208.28 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57ae6823-5615-4439-af3f-6875fb65b4f5")
+		(property "Reference" "D14"
+			(at 210.82 123.1264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Y"
+			(at 210.82 125.6664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 208.28 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 208.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C72038"
+			(at 208.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e00582d4-8229-4443-a9c6-6261cb7a2033")
+		)
+		(pin "1"
+			(uuid "220030d5-6df0-49e9-b76b-3eac01513960")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 198.12 248.92 0)
 		(unit 1)
@@ -23872,6 +24406,72 @@
 			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 208.28 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5826223d-05fc-471d-a452-35485d52de53")
+		(property "Reference" "#PWR096"
+			(at 208.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 208.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb4889d2-2c79-4586-947f-a645c5cd663c")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -24957,6 +25557,85 @@
 			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 208.28 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7022bcaa-a44c-4d42-bf0c-bc9c2d3e1f5b")
+		(property "Reference" "R48"
+			(at 210.82 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 210.82 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 208.28 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 208.28 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 208.28 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "acea958b-4758-4a07-b7b6-017f58c9fd3d")
+		)
+		(pin "1"
+			(uuid "9333df88-a22f-4132-baab-2d2f4fa11bb0")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -26191,6 +26870,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 218.44 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8627c440-ef3f-4286-8f0a-bebebe6046db")
+		(property "Reference" "#PWR099"
+			(at 218.44 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 218.44 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 218.44 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49c4dbf1-d703-4f8e-97d0-89b2f1eccb11")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Q_NMOS_GDS")
 		(at 322.58 213.36 0)
 		(unit 1)
@@ -26333,6 +27078,85 @@
 			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 228.6 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87f86388-6873-4407-bfae-98a96f737f0c")
+		(property "Reference" "D15"
+			(at 231.14 123.1264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Y"
+			(at 231.14 125.6664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 228.6 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 228.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C72038"
+			(at 228.6 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49b1bb5d-6a34-4dcb-9fb0-c08acb223251")
+		)
+		(pin "1"
+			(uuid "857edce3-7e0d-4752-8222-abba37e1c5c0")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -28391,6 +29215,72 @@
 			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a05d67fb-dd12-400a-9a0a-f8b58193781c")
+		(property "Reference" "#PWR095"
+			(at 208.28 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "258381cd-e51f-4046-89f4-497345abcd38")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -31138,6 +32028,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED_Small")
+		(at 218.44 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb2f5b12-90bc-405f-bd86-883a8ba7027e")
+		(property "Reference" "D16"
+			(at 220.98 128.2064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_Y"
+			(at 220.98 130.7464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 218.44 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 218.44 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C72038"
+			(at 218.44 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb59d37e-8257-4d6e-ba0c-f7056c288435")
+		)
+		(pin "1"
+			(uuid "48b44c1c-af2f-42e2-89ac-e51fceb440e3")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 234.95 252.73 0)
 		(unit 1)
@@ -31584,6 +32553,85 @@
 			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 228.6 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce36d8e1-6d4c-4a63-842c-63907e19b3e6")
+		(property "Reference" "R52"
+			(at 231.14 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 231.14 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 228.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 228.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 228.6 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c44dcaa1-2b5c-472d-bb84-8a5ac25d83f9")
+		)
+		(pin "1"
+			(uuid "e54c055e-4c49-4915-b76a-9b504a0d6916")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -33433,6 +34481,85 @@
 			(project "linkodrive08"
 				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 218.44 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed47ab19-fd93-4ea2-9e1e-21aaa5fa5e7c")
+		(property "Reference" "R50"
+			(at 220.98 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 220.98 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 218.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 218.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 218.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "248a87e8-a1e9-4a43-ae13-87d0e55aaa0a")
+		)
+		(pin "1"
+			(uuid "f4ab8ecd-6b92-4a4b-a09e-fc0048751da0")
+		)
+		(instances
+			(project "linkodrive08"
+				(path "/1d70325a-38b2-49fb-b3a9-bb06bd833a17"
+					(reference "R50")
 					(unit 1)
 				)
 			)
